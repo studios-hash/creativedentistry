@@ -1,0 +1,420 @@
+
+Creative Dentistry at Brooklyn Heights
+Website Copy Deck · for copywriter editing · pulled June 9, 2026
+Global &amp; Shared Elements
+Page 01   ·   Appears on every page
+Top Utility Bar
+Phone  —  (718) 875-9424
+Address  —  185 Montague St, 3rd Fl · Brooklyn Heights
+Hours summary  —  Mon–Thu 8–5 · Fri 8–4
+Positioning pill  —  Out-of-network · Concierge care
+Navigation Menu
+Nav links (in order)  —  Services · Film · Your Visit · Our Doctors · Technology · Membership · Contact
+Primary button  —  Book a Visit
+Phone link  —  (718) 875-9424
+Footer
+Brand statement  —  Restorative dentistry for the individual. Rooted in Brooklyn, designed for you — excellence, integrity, and compassion in every visit.
+Column heading  —  Visit
+Address block  —  185 Montague Street, 3rd Floor, Brooklyn, NY 11201
+Phone / Email  —  (718) 875-9424 · office@bellafioredds.com
+Getting here  —  Building lobby entrance beside Chipotle — take the elevator to the 3rd floor and ring the doorbell. Nearest the 2·3·4·5 at Borough Hall; Citi Bike &amp; valet right outside.
+Column heading  —  Hours
+Hours  —  Monday–Thursday 8:00 – 5:00 · Friday 8:00 – 4:00 · Sat / Sun Closed
+Languages line  —  Spoken here: English · Spanish · Polish
+Column heading  —  Ready when you are
+Footer CTA blurb  —  Book online in under a minute, or call and we'll find a time that works for you.
+Buttons  —  Book a Visit · Call the office
+Copyright line  —  © 2026 Creative Dentistry at Brooklyn Heights · Matthew Bellafiore DDS, PC
+Footer tagline  —  Out-of-network · Accepting new patients · LGBTQ+ friendly
+Booking Form (modal)
+Eyebrow  —  Request an Appointment
+Heading  —  Let's find your time
+Intro  —  Tell us a little about you and we'll reach out within one business day to confirm. Prefer to talk? Call (718) 875-9424.
+Field labels  —  Full name · Phone · Email · What can we help with? · Preferred day · Preferred time · Anything we should know? (optional)
+Notes placeholder  —  First time at the dentist in a while, a little nervous, etc.
+Submit button  —  Request appointment
+Alt line  —  Or call us directly at (718) 875-9424
+Confirmation heading  —  Thank you [name]!
+Confirmation body  —  Your request is in. A member of our team will reach out within one business day to confirm your visit.
+Homepage
+Page 02   ·   / · Creative Dentistry.html
+Browser / SEO
+Page title  —  Creative Dentistry at Brooklyn Heights — Restorative Dentistry for the Individual
+Meta description  —  Creative Dentistry at Brooklyn Heights — premium, relationship-driven dental care from Dr. Bellafiore, Dr. Black &amp; Dr. Baer. Rooted in Brooklyn. Designed for you.
+Hero
+Eyebrow  —  Brooklyn Heights · Est. 1961
+Headline  —  Rooted in Brooklyn. Designed for you.
+Sub-headline  —  Restorative dentistry for the individual — where precision meets personality. Comprehensive, unhurried care from a team that treats every patient like family.
+Buttons  —  Book Your Visit · Call the office
+Trust stats  —  60+ Years in the neighborhood · 3 Doctors, one standard · 5.0★ Patient-rated care
+Photo badge quote  —  &quot;Calm, premium, &amp; kind.&quot; — Loved by Brooklyn Heights patients
+Trust Band
+Stat 1  —  1961 — Caring for Brooklyn families since
+Stat 2  —  Pankey · Dawson &amp; ICOI-trained doctors
+Stat 3  —  60–90 min — Unhurried first-visit experience
+Stat 4  —  PPO+ — Out-of-network — we handle your claims
+Intro &amp; Pillars
+Eyebrow  —  Excellence · Integrity · Compassion
+Heading  —  Dentistry, reimagined for the individual
+Intro  —  We combine advanced dentistry with genuine connection — an experience that feels personal, comfortable, and exceptionally professional. Not cookie-cutter smiles. Yours.
+Pillar 1 — label / title  —  01 — Excellence · Precision-driven care
+Pillar 1 — body  —  Advanced technology and proven techniques, delivered by doctors with decades of continuing education in implants, restoration, and full-mouth rehabilitation.
+Pillar 2 — label / title  —  02 — Integrity · Transparent plans
+Pillar 2 — body  —  A clear list of necessary steps and honest costs. No fluff, no pressure — we co-diagnose with you and recommend only what truly serves your health.
+Pillar 3 — label / title  —  03 — Compassion · Designed around you
+Pillar 3 — body  —  You are welcomed, heard, and cared for like family. Personalized treatment built on trust, understanding, and a genuinely calm environment.
+Film / Video Section
+Eyebrow  —  Step Inside · A Short Film
+Heading  —  Some things you have to feel
+Body  —  Take ninety seconds and walk our halls before you ever book — the light through the windows, the quiet of the lounge, the people who'll soon know you by name.
+Player caption  —  A short film · Creative Dentistry · 01:30
+Services Overview
+Eyebrow  —  Comprehensive Care, One Roof
+Heading  —  Everything your smile needs for a lifetime of health
+Intro  —  From preventive cleanings to complete smile transformations — thoughtfully delivered, all in Brooklyn Heights.
+Card 1 — General &amp; Preventive  —  Comprehensive exams, professional cleanings, digital X-rays, and oral-cancer screening to keep your smile healthy for life.
+Card 2 — Cosmetic &amp; Smile Design  —  Porcelain veneers, Zoom!® whitening, and composite bonding to enhance your natural beauty with artistry and balance.
+Card 3 — Restorative Dentistry  —  Tooth-colored fillings, crowns, and bridges that restore health and function with precision — and a result that looks entirely your own.
+Card 4 — Dental Implants  —  From a single tooth to full-arch restoration — computer-guided, CBCT-planned implants for long-lasting, natural results.
+Card 5 — Clear Aligners  —  Discreet ClearCorrect® and Invisalign® treatment, planned with our 3Shape Trios scanner — no messy impressions, no metal.
+Card 6 — TMJ &amp; Facial Pain  —  Relief for jaw tension and grinding with custom nightguards, splint therapy, and masseter Botox® — so you can rest at ease.
+Card link (each)  —  Learn more
+Your First Visit
+Eyebrow  —  Your First Visit
+Heading  —  What to expect when you walk through our door
+Intro  —  A first visit here is a 60–90 minute experience — never rushed, always personal.
+1.  A warm welcome  —  You're greeted by name and offered coffee, tea, hot cider, or chilled water. We've already verified your insurance and forms, so your visit starts smoothly.
+2.  A complete picture  —  A digital wellness scan and full set of X-rays give us — and you — a clear, comprehensive view of your oral health.
+3.  Co-diagnosis, together  —  Using intraoral cameras, we review what we see side by side, so you understand your health and the &quot;why&quot; behind every recommendation.
+4.  A plan built for you  —  You leave with a transparent, long-term treatment plan and honest costs — and the confidence that it was made for you, not a quota.
+Anxious Patients / At Ease
+Eyebrow  —  Nervous About the Dentist?
+Heading  —  You're in control here — every step of the way
+Body  —  Many of our patients once dreaded dental visits. We designed this practice so you can finally relax: a calm, residential space and a team that listens first.
+A calm, residential environment. Traditional furnishings, natural light, and personalized music in every operatory.
+Sedation when you want it. Nitrous oxide (laughing gas) is available, and pre-visit anti-anxiety options can be arranged.
+Comfort, considered. Warm blankets and lavender-scented hot towels after treatment. Massaging chairs in select rooms.
+Heard, every time. Tell us your concerns up front — we plan around them, and you set the pace.
+Pull quote  —  &quot;Treat every patient with the same level of skill, compassion, and attention we would provide to our own family.&quot; — Our daily Standard of Care
+Meet Your Doctors
+Eyebrow  —  Meet Your Doctors
+Heading  —  The hands and hearts behind your care
+Intro  —  Three doctors, one uncompromising standard — Brooklyn-rooted, relationship-driven, and endlessly committed to your long-term health.
+Dr. Bellafiore — name / role  —  Dr. Matthew Bellafiore · Founder · DDS
+Dr. Bellafiore — bio  —  Born and raised in Brooklyn, Dr. Bellafiore has led this practice for 30+ years. An NYU-trained implant and full-mouth rehabilitation specialist with advanced study at the Pankey Institute, Dawson Academy, and ICOI.
+Dr. Bellafiore — tags  —  Implant Placement · Full-Mouth Rehab · Pankey · Dawson
+Dr. Black — name / role  —  Dr. Alexander Black · Restorative &amp; Aligners · DDS
+Dr. Black — bio  —  A former computer scientist turned dentist who fell in love with Brooklyn during residency. Pankey-trained, with a detail-obsessed focus on restorative dentistry, clear aligners, and TMJ relief.
+Dr. Black — tags  —  Clear Aligners · Restorative · TMJ / Botox
+Dr. Baer — name / role  —  Dr. Becca Baer · Restorative &amp; Prosthodontics · DDS
+Dr. Baer — bio  —  Trained at Indiana University and Montefiore's renowned Centennial Clinic, where she served as Chief Resident. Brings warmth and refined skill to restorative and complex prosthodontic care.
+Dr. Baer — tags  —  Prosthodontics · Restorative · Chief Resident
+Technology
+Eyebrow  —  Advanced Technology
+Heading  —  Modern tools, in service of a gentler experience
+Intro  —  We invest in technology for one reason: to make your care safer, more precise, and more comfortable.
+CBCT 3D Imaging  —  Three-dimensional scans let us plan implant placement with surgical-guide precision — safer procedures and more predictable results.
+3Shape Trios Scanner  —  Impression-free crowns and aligner cases. A quick digital scan replaces the goopy molds — more comfortable and more accurate.
+Biolase Waterlase Laser  —  Gentle laser gum therapy with minimal bleeding, less discomfort, faster healing, and a reduced risk of post-treatment infection.
+ClearCorrect &amp; iTero  —  Discreet, precisely-fitted aligners mapped to your bite — so straightening your smile fits seamlessly into a busy life.
+Mission Quote
+Eyebrow  —  Our Mission
+Quote  —  &quot;Our dental care is centered on one mission — to help each person who visits our office achieve their full potential.&quot;
+Attribution  —  Dr. Matthew Bellafiore, DDS
+Membership · Financing · Insurance
+Eyebrow  —  Membership · Financing · Insurance
+Heading  —  Premium care, made accessible
+Intro  —  We're out-of-network by design — so our recommendations answer to you, not an insurer. Here's how we make exceptional care attainable.
+Plan 1 — tag / title / subtitle  —  Most Popular · In-House Membership · For patients without insurance
+Plan 1 — body  —  Our own plan covers the care you actually need — and includes a discount on future treatment.
+Plan 1 — list  —  Two annual exams &amp; cleanings · All necessary X-rays · One emergency exam · Discount on additional treatment
+Plan 1 — button  —  Ask about membership
+Plan 2 — tag / title / subtitle  —  Insurance · PPO &amp; In-Network · We handle the paperwork
+Plan 2 — body  —  Out-of-network but accepting PPO plans — we file claims for you. In-network with Delta Dental and CSEA.
+Plan 2 — list  —  PPO claims filed on your behalf · Delta Dental &amp; CSEA in-network · Benefits verified before your visit
+Plan 2 — button  —  Verify my benefits
+Plan 3 — tag / title / subtitle  —  Financing · Flexible Payments · Care now, pay over time
+Plan 3 — body  —  Spread treatment across comfortable monthly payments with trusted financing partners — our front desk helps you apply.
+Plan 3 — list  —  Cherry financing · Sunbit financing · Quick in-office application
+Plan 3 — button  —  Explore financing
+New Patient Offer
+Eyebrow  —  New Patient Special
+Heading  —  Start with a smile
+Body  —  New to Creative Dentistry? Begin with a comprehensive exam, a full set of X-rays, and a professional cleaning — at a special new-patient rate. It's the easiest first step toward care designed entirely around you.
+Offer card  —  New Smile — Exam + Full X-Rays + Cleaning · special new-patient rate
+Button  —  Claim this offer
+Areas Served
+Eyebrow  —  Proudly Serving
+Heading  —  A neighborhood practice for greater Brooklyn
+Intro  —  Welcoming patients from across the borough and beyond.
+Neighborhoods  —  Brooklyn Heights · Downtown Brooklyn · Cobble Hill · DUMBO · Boerum Hill · Carroll Gardens · Gowanus
+General &amp; Preventive
+Page 03   ·   /services/general-preventive · general-preventive.html
+Note: This page uses the same top bar, navigation, footer and booking form as every other page — those live in Page 01 · Global &amp; Shared Elements. Below is only the copy unique to this page.
+Browser / SEO
+Page title  —  Healthy teeth, kept that way — Creative Dentistry at Brooklyn Heights
+Meta description  —  Healthy teeth, kept that way at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.
+Hero
+Breadcrumb  —  Home / Services / General &amp; Preventive
+Eyebrow  —  General &amp; Preventive
+Headline (H1)  —  Healthy teeth, kept that way
+Sub-headline  —  The quiet, consistent care that stops problems before they start — comprehensive exams, gentle cleanings, and early detection, all in one calm visit.
+Buttons  —  Book a Visit · Call the office
+Overview
+Eyebrow  —  Overview
+Heading  —  Prevention is the most powerful dentistry there is
+Lead paragraph  —  Most of what threatens your smile — decay, gum disease, a small crack — is far easier and far gentler to address when we catch it early. That is the entire point of a regular visit here.
+Body paragraph  —  Every six months we take a complete look: a thorough exam, a professional cleaning, digital X-rays only when they are warranted, and an honest conversation about anything we see. No upsell, no scare tactics — just a clear picture of where you stand.
+What's Included
+Comprehensive exams — a full evaluation of teeth, gums, bite, and soft tissue.
+Professional cleanings — gentle, thorough hygiene that removes what brushing cannot.
+Digital X-rays — low-radiation imaging, taken only when clinically useful.
+Oral-cancer screening — a quick, painless check at every exam.
+Gum health — periodontal evaluation to keep your foundation strong.
+Sealants &amp; fluoride — simple protection for vulnerable teeth.
+What to Expect
+Eyebrow  —  What to Expect
+Heading  —  An unhurried visit, start to finish
+1.  Settle in  —  Coffee or tea in hand, we review any changes to your health and listen to your concerns.
+2.  A complete look  —  Exam, imaging when needed, and a gentle cleaning from a hygienist who takes their time.
+3.  On the same page  —  We walk through what we found together on screen — you leave knowing exactly where things stand.
+Feature Block
+Eyebrow  —  Why It Matters
+Heading  —  Care that prevents, not just repairs
+Body  —  A steady rhythm of preventive visits is the single best investment you can make in your smile — it keeps small things small, and keeps you out of the chair for the big ones.
+FAQ
+Q  How often should I come in?
+A  For most patients, every six months. If you are managing gum disease or other concerns, we may suggest a tailored interval.
+Q  Do you take X-rays every visit?
+A  No. We take digital X-rays only when there is a clinical reason — and they are low-radiation when we do.
+Q  I have not been to a dentist in years. Is that a problem?
+A  Not at all, and you will not hear a word of judgment. We simply start with a complete picture and build a plan from there.
+Closing CTA Band
+Heading  —  Due for a visit?
+Body  —  Start with a comprehensive exam and cleaning — the easiest first step toward care designed around you.
+Buttons  —  Book a Visit · Call (718) 875-9424
+Cosmetic &amp; Smile Design
+Page 04   ·   /services/cosmetic-smile-design · cosmetic-smile-design.html
+Note: This page uses the same top bar, navigation, footer and booking form as every other page — those live in Page 01 · Global &amp; Shared Elements. Below is only the copy unique to this page.
+Browser / SEO
+Page title  —  A smile that looks like you — Creative Dentistry at Brooklyn Heights
+Meta description  —  A smile that looks like you at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.
+Hero
+Breadcrumb  —  Home / Services / Cosmetic &amp; Smile Design
+Eyebrow  —  Cosmetic &amp; Smile Design
+Headline (H1)  —  A smile that looks like you
+Sub-headline  —  Veneers, whitening, and bonding designed around your face and your personality — never a cookie-cutter set of too-white teeth.
+Buttons  —  Book a Visit · Call the office
+Overview
+Eyebrow  —  Overview
+Heading  —  Beautiful, but unmistakably yours
+Lead paragraph  —  A beautiful smile is not about a shade of white. It is about balance — teeth that suit your face, your age, and the way you talk and laugh. We design with restraint, so the result reads as you on a good day, not as work done.
+Body paragraph  —  We start with what you would change and what you would never want to lose. Then we plan it, often with a preview, so you can see the direction before anything becomes permanent.
+What's Included
+Porcelain veneers — custom shells that refine shape, color, and proportion subtly.
+Zoom!® whitening — professional in-office brightening in a single visit.
+Composite bonding — conservative, same-day repair of chips and gaps.
+Smile design — a holistic plan built around your face and goals.
+Tooth recontouring — subtle reshaping for a more harmonious look.
+Smile preview — see a mock-up of your future smile before you commit.
+What to Expect
+Eyebrow  —  What to Expect
+Heading  —  Designed with you, not for you
+1.  Listen first  —  We learn what you want to change — and just as importantly, what you love and want to keep.
+2.  Design &amp; preview  —  We plan the smile and, where it helps, show you a preview before any permanent work.
+3.  Refine together  —  We fit, adjust, and perfect until it feels unmistakably like you.
+Feature Block
+Eyebrow  —  Our Approach
+Heading  —  Designed around your face
+Body  —  Shape, proportion, and shade are chosen to suit you specifically — which is why our cosmetic work tends to get noticed as looking well-rested, not as looking done.
+FAQ
+Q  Will my veneers look fake?
+A  Not the way we design them. We choose shape and shade to suit your face — most people will only notice you look well-rested.
+Q  How white is too white?
+A  We guide you toward a shade that is bright but believable for your skin tone and age. The goal is natural, not neon.
+Q  How long does whitening last?
+A  It varies with diet and habits, but professional whitening lasts considerably longer than over-the-counter kits and is easy to touch up.
+Closing CTA Band
+Heading  —  Ready to love your smile?
+Body  —  Book a cosmetic consultation and we will show you what is possible — honestly, and at your pace.
+Buttons  —  Book a Visit · Call (718) 875-9424
+Restorative Dentistry
+Page 05   ·   /services/restorative-dentistry · restorative-dentistry.html
+Note: This page uses the same top bar, navigation, footer and booking form as every other page — those live in Page 01 · Global &amp; Shared Elements. Below is only the copy unique to this page.
+Browser / SEO
+Page title  —  Function and beauty, restored — Creative Dentistry at Brooklyn Heights
+Meta description  —  Function and beauty, restored at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.
+Hero
+Breadcrumb  —  Home / Services / Restorative Dentistry
+Eyebrow  —  Restorative Dentistry
+Headline (H1)  —  Function and beauty, restored
+Sub-headline  —  Tooth-colored fillings, crowns, and bridges that bring back strength and health — with results that look entirely your own.
+Buttons  —  Book a Visit · Call the office
+Overview
+Eyebrow  —  Overview
+Heading  —  Restored to health, invisibly
+Lead paragraph  —  When a tooth is damaged, the goal is simple: restore it to full health and function in a way that disappears into your smile. Modern materials let us do exactly that — no metal lines, no telltale repairs.
+Body paragraph  —  We are conservative by philosophy. We preserve as much healthy tooth structure as possible and rebuild only what is needed, so your restoration lasts and your bite stays comfortable.
+What's Included
+Tooth-colored fillings — mercury-free composite matched precisely to your tooth.
+Crowns — custom crowns that rebuild strength, shape, and appearance.
+Bridges — fixed replacements that close a gap and even your bite.
+Inlays &amp; onlays — conservative lab-crafted restorations for larger repairs.
+Full-mouth rehabilitation — comprehensive reconstruction for complex cases.
+Root canal therapy — comfortable treatment that saves a natural tooth.
+What to Expect
+Eyebrow  —  What to Expect
+Heading  —  Precise, conservative, comfortable
+1.  Diagnose precisely  —  We pinpoint the issue with digital imaging and co-review it with you on screen.
+2.  Restore conservatively  —  We rebuild only what is needed, preserving healthy structure with modern materials.
+3.  Check the bite  —  We confirm everything feels natural and even before you leave.
+Feature Block
+Eyebrow  —  Our Philosophy
+Heading  —  Conservative by design
+Body  —  The best restoration is the one you forget you have. We protect healthy tooth structure, match materials to your natural teeth, and obsess over a bite that simply feels right.
+FAQ
+Q  Will my filling or crown match my teeth?
+A  Yes. We use tooth-colored materials shaded to blend seamlessly with your natural teeth.
+Q  How long do crowns and bridges last?
+A  With good care, many years — often a decade or more. We will show you how to protect them.
+Q  Do you offer same-day options?
+A  For many cases, yes. We will discuss timing based on exactly what your tooth needs.
+Closing CTA Band
+Heading  —  Bring back a tooth you can trust
+Body  —  Book an evaluation and we will map out the gentlest path to a strong, natural-looking result.
+Buttons  —  Book a Visit · Call (718) 875-9424
+Dental Implants
+Page 06   ·   /services/dental-implants · dental-implants.html
+Note: This page uses the same top bar, navigation, footer and booking form as every other page — those live in Page 01 · Global &amp; Shared Elements. Below is only the copy unique to this page.
+Browser / SEO
+Page title  —  A permanent answer to a missing tooth — Creative Dentistry at Brooklyn Heights
+Meta description  —  A permanent answer to a missing tooth at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.
+Hero
+Breadcrumb  —  Home / Services / Dental Implants
+Eyebrow  —  Dental Implants
+Headline (H1)  —  A permanent answer to a missing tooth
+Sub-headline  —  From a single tooth to a full arch — computer-guided, CBCT-planned implants that look, feel, and function like your own.
+Buttons  —  Book a Visit · Call the office
+Overview
+Eyebrow  —  Overview
+Heading  —  The closest thing to your natural tooth
+Lead paragraph  —  An implant replaces the whole tooth — root and crown — so you can eat, speak, and smile without a second thought. It is the closest thing modern dentistry has to giving you your natural tooth back.
+Body paragraph  —  Dr. Bellafiore plans every case in three dimensions with CBCT imaging and surgical guides, so placement is precise and predictable. The result is a restoration built to last for decades.
+What's Included
+Single-tooth implants — replace one tooth without touching the healthy ones beside it.
+Implant-supported bridges — replace several teeth with a stable, fixed solution.
+Full-arch restoration — a fixed set of teeth on a few well-placed implants.
+CBCT-guided planning — 3D imaging and surgical guides for precise placement.
+Bone grafting — rebuilding support where it is needed for a strong base.
+Implant maintenance — ongoing care to keep your implants healthy for life.
+What to Expect
+Eyebrow  —  What to Expect
+Heading  —  Planned precisely, placed gently
+1.  Plan in 3D  —  A CBCT scan maps bone, nerves, and the ideal position before anything begins.
+2.  Place precisely  —  Guided, comfortable placement — many patients are surprised how easy it is.
+3.  Restore beautifully  —  A custom crown or bridge completes the tooth, matched to your smile.
+Feature Block
+Eyebrow  —  Technology
+Heading  —  Planned in three dimensions
+Body  —  Every implant begins as a 3D plan. CBCT imaging and surgical guides let us place each one with millimeter precision — safer for you, and far more predictable in the long run.
+FAQ
+Q  Does getting an implant hurt?
+A  Most patients report far less discomfort than expected. We plan carefully and keep you comfortable throughout, with sedation available.
+Q  How long does the process take?
+A  It varies. After placement we allow time for healing before the final crown — we will map out your timeline clearly.
+Q  Am I a candidate?
+A  Many people are, even if they have been told otherwise. A consultation and 3D scan will tell us for certain.
+Closing CTA Band
+Heading  —  Replace a missing tooth for good
+Body  —  Book a consultation and 3D scan — we will tell you honestly whether implants are right for you.
+Buttons  —  Book a Visit · Call (718) 875-9424
+Clear Aligners
+Page 07   ·   /services/clear-aligners · clear-aligners.html
+Note: This page uses the same top bar, navigation, footer and booking form as every other page — those live in Page 01 · Global &amp; Shared Elements. Below is only the copy unique to this page.
+Browser / SEO
+Page title  —  Straighten your smile, quietly — Creative Dentistry at Brooklyn Heights
+Meta description  —  Straighten your smile, quietly at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.
+Hero
+Breadcrumb  —  Home / Services / Clear Aligners
+Eyebrow  —  Clear Aligners
+Headline (H1)  —  Straighten your smile, quietly
+Sub-headline  —  Discreet ClearCorrect® and Invisalign® treatment, planned with our 3Shape Trios scanner — no metal, no messy impressions.
+Buttons  —  Book a Visit · Call the office
+Overview
+Eyebrow  —  Overview
+Heading  —  The easiest path to straighter teeth
+Lead paragraph  —  Clear aligners straighten your teeth with a series of nearly invisible trays you can take out to eat, brush, and for the occasional photo. For most adults, it is the simplest way to get the smile they have always wanted.
+Body paragraph  —  We map your entire treatment digitally with the Trios scanner, so you can see the plan — and often a preview of your final result — before you begin.
+What's Included
+ClearCorrect® — comfortable, nearly invisible aligners for a discreet fix.
+Invisalign® — the trusted aligner system, planned and managed in-house.
+Digital scanning — a quick 3Shape Trios scan replaces goopy impressions.
+Treatment preview — see a projection of your finished smile before you start.
+Refinements — fine-tuning to get the result exactly right.
+Retainers — custom retainers to protect your new smile for life.
+What to Expect
+Eyebrow  —  What to Expect
+Heading  —  See the plan before you start
+1.  Scan, do not squish  —  A fast digital scan captures your teeth — no trays of putty.
+2.  See the plan  —  We show you the step-by-step movement and your projected result.
+3.  Wear &amp; progress  —  Swap trays on schedule, with easy check-ins as your smile straightens.
+Feature Block
+Eyebrow  —  Digital First
+Heading  —  You will see the plan first
+Body  —  Before you commit, the Trios scanner lets us show you how your teeth will move and what your finished smile should look like — so you start with confidence, not guesswork.
+FAQ
+Q  How long does treatment take?
+A  Many cases finish in a matter of months, though it depends on your goals. We will estimate your timeline up front.
+Q  Will anyone notice I am wearing them?
+A  Rarely. The aligners are clear and removable — most people will not know unless you tell them.
+Q  Are aligners right for every case?
+A  They handle a wide range, but not all. We will tell you honestly if something else would serve you better.
+Closing CTA Band
+Heading  —  A straighter smile, on your terms
+Body  —  Book a scan and we will show you the plan and a preview of your result before you decide.
+Buttons  —  Book a Visit · Call (718) 875-9424
+TMJ &amp; Facial Pain
+Page 08   ·   /services/tmj-facial-pain · tmj-facial-pain.html
+Note: This page uses the same top bar, navigation, footer and booking form as every other page — those live in Page 01 · Global &amp; Shared Elements. Below is only the copy unique to this page.
+Browser / SEO
+Page title  —  Relief for jaw pain and clenching — Creative Dentistry at Brooklyn Heights
+Meta description  —  Relief for jaw pain and clenching at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.
+Hero
+Breadcrumb  —  Home / Services / TMJ &amp; Facial Pain
+Eyebrow  —  TMJ &amp; Facial Pain
+Headline (H1)  —  Relief for jaw pain and clenching
+Sub-headline  —  Custom nightguards, splint therapy, and masseter Botox® to ease tension, protect your teeth, and help you rest.
+Buttons  —  Book a Visit · Call the office
+Overview
+Eyebrow  —  Overview
+Heading  —  Treatable, usually without anything invasive
+Lead paragraph  —  Jaw pain, morning headaches, worn or sensitive teeth, a clicking jaw — these are often signs of clenching, grinding, or a strained jaw joint. The good news is that they are very treatable, usually without anything invasive.
+Body paragraph  —  We start by understanding what is driving it, then choose the gentlest effective approach — from a custom guard you wear at night to targeted therapy that relaxes overworked muscles.
+What's Included
+Custom nightguards — precisely fitted guards that protect teeth and ease tension.
+Splint therapy — appliances that reposition and rest a strained jaw.
+Masseter Botox® — targeted treatment that relaxes overworked jaw muscles.
+Bite evaluation — a close look at how your teeth meet — often the root cause.
+Headache relief — addressing the dental causes behind tension headaches.
+Worn-tooth repair — restoring teeth damaged by years of grinding.
+What to Expect
+Eyebrow  —  What to Expect
+Heading  —  Find the cause, relieve it gently
+1.  Find the cause  —  We evaluate your bite, muscles, and joint to understand what is really going on.
+2.  Relieve gently  —  We start with the least invasive approach that will actually work.
+3.  Protect long-term  —  A plan to keep symptoms from returning — and your teeth protected.
+Feature Block
+Eyebrow  —  Comfort First
+Heading  —  Comfort, considered
+Body  —  Relief should not be an ordeal. We lean on the gentlest options first — a custom guard, targeted therapy — and surround them with the warm blankets and calm that define every visit here.
+FAQ
+Q  Is the Botox® treatment safe?
+A  Yes, when administered by a trained clinician. We use it precisely to relax specific jaw muscles, with no effect on your expression.
+Q  Will a nightguard really help?
+A  For most people who clench or grind, yes — it protects your teeth and often relieves morning pain and headaches.
+Q  Could my headaches be dental?
+A  They can be. Clenching and a strained bite are common, under-recognized causes. An evaluation will tell us.
+Closing CTA Band
+Heading  —  Wake up without the ache
+Body  —  Book an evaluation and we will find the cause of your jaw pain — and the gentlest way to relieve it.
+Buttons  —  Book a Visit · Call (718) 875-9424
