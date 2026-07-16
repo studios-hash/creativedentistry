@@ -1,0 +1,939 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creative Dentistry — Website Copy Deck</title>
+<meta name="description" content="Full website copy for Creative Dentistry at Brooklyn Heights, organized by page for copywriter review and edits.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logomark-navy.svg">
+<style>
+  :root{
+    --navy:#1B2D5B;
+    --navy-900:#0f1c39;
+    --gold:#F5B800;
+    --cream:#F5F2EE;
+    --cream-2:#efeae3;
+    --ink:#1b2438;
+    --muted:#5b6577;
+    --line:rgba(27,45,91,.14);
+    --line-2:rgba(27,45,91,.09);
+    --white:#fff;
+    --serif:'Lora', Georgia, 'Times New Roman', serif;
+    --sans:'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    --mono:'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace;
+  }
+  *{box-sizing:border-box}
+  html{ -webkit-text-size-adjust:100%; }
+  body{
+    margin:0;
+    background:var(--cream-2);
+    color:var(--ink);
+    font-family:var(--serif);
+    line-height:1.6;
+    font-size:16px;
+  }
+  .doc{
+    max-width:880px;
+    margin:0 auto;
+    padding:0 0 80px;
+    background:var(--white);
+    box-shadow:0 30px 80px rgba(15,28,57,.10);
+  }
+
+  /* ---------- Cover ---------- */
+  .cover{
+    background:var(--navy);
+    color:#fff;
+    padding:64px 64px 56px;
+    position:relative;
+    overflow:hidden;
+  }
+  .cover .mark{
+    position:absolute; right:-40px; top:-30px; width:280px; opacity:.10;
+    filter:brightness(0) invert(1);
+  }
+  .cover .kicker{
+    font-family:var(--sans); font-size:12px; font-weight:600; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--gold); margin:0 0 22px;
+  }
+  .cover h1{
+    font-family:var(--serif); font-weight:500; font-size:46px; line-height:1.06;
+    margin:0 0 18px; letter-spacing:-.01em;
+  }
+  .cover p{
+    font-family:var(--sans); font-size:15px; line-height:1.65; color:#c9d3e8;
+    max-width:54ch; margin:0;
+  }
+  .cover .meta{
+    margin-top:34px; padding-top:24px; border-top:1px solid rgba(255,255,255,.16);
+    display:flex; flex-wrap:wrap; gap:32px 56px;
+    font-family:var(--sans); font-size:13px; color:#c9d3e8;
+  }
+  .cover .meta b{ display:block; color:#fff; font-weight:600; font-size:14px; margin-bottom:3px; }
+  .cover .meta .l{ font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--gold); display:block; margin-bottom:6px; }
+
+  /* ---------- How to use ---------- */
+  .howto{
+    background:var(--cream);
+    border-bottom:1px solid var(--line);
+    padding:26px 64px;
+    font-family:var(--sans); font-size:13.5px; line-height:1.6; color:var(--muted);
+  }
+  .howto b{ color:var(--navy); }
+  .howto .legend{ display:flex; flex-wrap:wrap; gap:18px 28px; margin-top:14px; }
+  .howto .legend span{ display:inline-flex; align-items:center; gap:8px; }
+  .swatch{ width:13px; height:13px; border-radius:3px; display:inline-block; }
+
+  /* ---------- TOC ---------- */
+  .toc{ padding:40px 64px 8px; }
+  .toc h2{
+    font-family:var(--sans); font-size:12px; letter-spacing:.2em; text-transform:uppercase;
+    color:var(--muted); font-weight:600; margin:0 0 18px;
+  }
+  .toc ol{ margin:0; padding:0; list-style:none; counter-reset:toc; }
+  .toc li{ counter-increment:toc; border-bottom:1px solid var(--line-2); }
+  .toc a{
+    display:flex; align-items:baseline; gap:14px; padding:13px 2px;
+    text-decoration:none; color:var(--ink);
+  }
+  .toc a:hover{ color:var(--navy); }
+  .toc a::before{
+    content:counter(toc,decimal-leading-zero);
+    font-family:var(--sans); font-size:12px; font-weight:600; color:var(--gold);
+    min-width:26px;
+  }
+  .toc .t{ font-family:var(--serif); font-size:18px; font-weight:500; }
+  .toc .u{ margin-left:auto; font-family:var(--mono); font-size:11.5px; color:var(--muted); }
+
+  /* ---------- Page block ---------- */
+  .page{ padding:0 64px; }
+  .page-head{
+    margin:56px 0 8px; padding-top:38px; border-top:3px solid var(--navy);
+    page-break-before:always; break-before:page;
+  }
+  .page:first-of-type .page-head{ page-break-before:auto; break-before:auto; }
+  .page-num{
+    font-family:var(--sans); font-size:12px; font-weight:700; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--gold);
+  }
+  .page-head h2{
+    font-family:var(--serif); font-weight:500; font-size:32px; line-height:1.1;
+    margin:10px 0 14px; letter-spacing:-.01em; color:var(--navy);
+  }
+  .page-url{
+    font-family:var(--mono); font-size:12px; color:var(--muted);
+    background:var(--cream); border:1px solid var(--line); border-radius:6px;
+    padding:4px 9px; display:inline-block;
+  }
+  .pagemeta{ margin:16px 0 0; }
+
+  /* ---------- Section within a page ---------- */
+  .sec{ margin:38px 0 0; }
+  .sec-label{
+    font-family:var(--sans); font-size:11px; font-weight:700; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--navy);
+    display:flex; align-items:center; gap:10px; margin:0 0 18px;
+  }
+  .sec-label::after{ content:""; flex:1; height:1px; background:var(--line); }
+  .sec-note{
+    font-family:var(--sans); font-size:12.5px; color:var(--muted); font-style:normal;
+    margin:-10px 0 16px; line-height:1.5;
+  }
+
+  /* ---------- Field (label + copy) ---------- */
+  .f{ margin:0 0 20px; padding-left:18px; border-left:2px solid var(--line); }
+  .f-lab{
+    font-family:var(--sans); font-size:10.5px; font-weight:600; letter-spacing:.13em;
+    text-transform:uppercase; color:var(--muted); margin:0 0 5px;
+  }
+  .f-val{
+    font-family:var(--serif); font-size:17px; line-height:1.5; color:var(--ink); margin:0;
+  }
+  .f-val.big{ font-size:23px; font-weight:500; line-height:1.22; color:var(--navy); letter-spacing:-.01em; }
+  .f-val.lede{ font-size:18px; }
+  .f-val.small{ font-size:14.5px; font-family:var(--sans); line-height:1.55; }
+  .f.btn{ border-left-color:var(--gold); }
+  .f.btn .f-val{ font-family:var(--sans); font-weight:600; font-size:15px; color:var(--navy); }
+  .f.eyebrow .f-val{
+    font-family:var(--sans); font-weight:600; font-size:12.5px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--navy);
+  }
+  .f .hint{ font-family:var(--sans); font-size:11.5px; color:var(--muted); font-style:italic; }
+
+  /* list of items */
+  ul.items{ margin:6px 0 0; padding:0; list-style:none; }
+  ul.items li{
+    font-family:var(--serif); font-size:16px; line-height:1.5; padding:7px 0 7px 22px;
+    border-bottom:1px solid var(--line-2); position:relative;
+  }
+  ul.items li:last-child{ border-bottom:0; }
+  ul.items li::before{
+    content:""; position:absolute; left:2px; top:15px; width:7px; height:7px;
+    border-radius:2px; background:var(--gold);
+  }
+  ul.items li b{ color:var(--navy); font-weight:600; }
+
+  /* faq + steps */
+  .qa{ margin:0 0 16px; padding-left:18px; border-left:2px solid var(--line); }
+  .qa .q{ font-family:var(--sans); font-weight:600; font-size:15px; color:var(--navy); margin:0 0 4px; }
+  .qa .a{ font-family:var(--serif); font-size:15.5px; line-height:1.5; color:var(--ink); margin:0; }
+
+  .step{ display:flex; gap:14px; margin:0 0 14px; padding-left:18px; border-left:2px solid var(--line); }
+  .step .n{
+    flex:0 0 auto; width:26px; height:26px; border-radius:50%; background:var(--navy);
+    color:#fff; font-family:var(--sans); font-size:12px; font-weight:600;
+    display:flex; align-items:center; justify-content:center; margin-top:2px;
+  }
+  .step .st-h{ font-family:var(--sans); font-weight:600; font-size:14.5px; color:var(--navy); margin:0 0 3px; }
+  .step .st-p{ font-family:var(--serif); font-size:15.5px; line-height:1.45; margin:0; }
+
+  /* shared note callout */
+  .reuse{
+    font-family:var(--sans); font-size:12.5px; color:var(--muted); line-height:1.5;
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:14px 16px; margin:14px 0 0;
+  }
+  .reuse b{ color:var(--navy); }
+
+  @media (max-width:760px){
+    .cover,.howto,.toc,.page{ padding-left:26px; padding-right:26px; }
+    .cover h1{ font-size:34px; }
+  }
+  @media print{
+    body{ background:#fff; font-size:12px; }
+    .doc{ box-shadow:none; max-width:none; }
+    .cover{ padding:48px; }
+    .howto{ padding:22px 48px; }
+    .toc,.page{ padding-left:48px; padding-right:48px; }
+    a{ color:inherit; text-decoration:none; }
+    .step .n{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    .cover, .page-head, .reuse{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <!-- ============ COVER ============ -->
+  <header class="cover">
+    <img class="mark" src="assets/logomark-white.svg" alt="">
+    <p class="kicker">Website Copy Deck · For Editing</p>
+    <h1>Creative Dentistry<br>at Brooklyn Heights</h1>
+    <p>Every word on the website, pulled out of the design and laid out page by page so it can be read, marked up, and rewritten in one place. Edit freely — the headings, sub-headings, body, button labels and FAQ for each page are all labeled below.</p>
+    <div class="meta">
+      <div><span class="l">Prepared for</span><b>Copywriter review</b>Site content edits</div>
+      <div><span class="l">Pages covered</span><b>7 pages + shared</b>Home &amp; 6 service pages</div>
+      <div><span class="l">Last pulled</span><b>June 9, 2026</b>From live site files</div>
+    </div>
+  </header>
+
+  <!-- ============ HOW TO USE ============ -->
+  <section class="howto">
+    <b>How to read this document.</b> Each page is broken into the sections a visitor scrolls through, top to bottom. Within each section, every piece of text is given a <b>label</b> (what role it plays) followed by the <b>current copy</b>. Rewrite directly under or over each line. Anything that appears on every page — the top bar, navigation, footer, and booking form — lives once in <b>Section 01 · Global</b> so you only edit it in one spot.
+    <div class="legend">
+      <span><span class="swatch" style="background:var(--navy)"></span> Navy = headline / hero copy</span>
+      <span><span class="swatch" style="background:var(--gold)"></span> Gold = button or link label</span>
+      <span><span class="swatch" style="background:#c9cdd6"></span> Grey label = field role</span>
+    </div>
+  </section>
+
+  <!-- ============ TOC ============ -->
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#global"><span class="t">Global &amp; Shared Elements</span><span class="u">all pages</span></a></li>
+      <li><a href="#home"><span class="t">Homepage</span><span class="u">/</span></a></li>
+      <li><a href="#svc-general"><span class="t">General &amp; Preventive</span><span class="u">/services/general-preventive</span></a></li>
+      <li><a href="#svc-cosmetic"><span class="t">Cosmetic &amp; Smile Design</span><span class="u">/services/cosmetic-smile-design</span></a></li>
+      <li><a href="#svc-restorative"><span class="t">Restorative Dentistry</span><span class="u">/services/restorative-dentistry</span></a></li>
+      <li><a href="#svc-implants"><span class="t">Dental Implants</span><span class="u">/services/dental-implants</span></a></li>
+      <li><a href="#svc-aligners"><span class="t">Clear Aligners</span><span class="u">/services/clear-aligners</span></a></li>
+      <li><a href="#svc-tmj"><span class="t">TMJ &amp; Facial Pain</span><span class="u">/services/tmj-facial-pain</span></a></li>
+    </ol>
+  </nav>
+
+  <!-- ============ 01 · GLOBAL ============ -->
+  <section class="page" id="global">
+    <div class="page-head">
+      <div class="page-num">Page 01</div>
+      <h2>Global &amp; Shared Elements</h2>
+      <div class="pagemeta"><span class="page-url">Appears on every page</span></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Top Utility Bar</div>
+      <div class="f"><div class="f-lab">Phone</div><p class="f-val">(718) 875-9424</p></div>
+      <div class="f"><div class="f-lab">Address</div><p class="f-val">185 Montague St, 3rd Fl · Brooklyn Heights</p></div>
+      <div class="f"><div class="f-lab">Hours summary</div><p class="f-val">Mon–Thu 8–5 · Fri 8–4</p></div>
+      <div class="f"><div class="f-lab">Positioning pill</div><p class="f-val">Out-of-network · Concierge care</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Navigation Menu</div>
+      <div class="f"><div class="f-lab">Nav links (in order)</div><p class="f-val">Services · Film · Your Visit · Our Doctors · Technology · Membership · Contact</p></div>
+      <div class="f btn"><div class="f-lab">Primary button</div><p class="f-val">Book a Visit</p></div>
+      <div class="f btn"><div class="f-lab">Phone link</div><p class="f-val">(718) 875-9424</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Footer</div>
+      <div class="f"><div class="f-lab">Brand statement</div><p class="f-val">Restorative dentistry for the individual. Rooted in Brooklyn, designed for you — excellence, integrity, and compassion in every visit.</p></div>
+      <div class="f eyebrow"><div class="f-lab">Column heading</div><p class="f-val">Visit</p></div>
+      <div class="f"><div class="f-lab">Address block</div><p class="f-val">185 Montague Street, 3rd Floor, Brooklyn, NY 11201</p></div>
+      <div class="f"><div class="f-lab">Phone / Email</div><p class="f-val">(718) 875-9424 · office@bellafioredds.com</p></div>
+      <div class="f"><div class="f-lab">Getting here</div><p class="f-val">Building lobby entrance beside Chipotle — take the elevator to the 3rd floor and ring the doorbell. Nearest the 2·3·4·5 at Borough Hall; Citi Bike &amp; valet right outside.</p></div>
+      <div class="f eyebrow"><div class="f-lab">Column heading</div><p class="f-val">Hours</p></div>
+      <div class="f"><div class="f-lab">Hours</div><p class="f-val">Monday–Thursday 8:00 – 5:00 · Friday 8:00 – 4:00 · Sat / Sun Closed</p></div>
+      <div class="f"><div class="f-lab">Languages line</div><p class="f-val">Spoken here: English · Spanish · Polish</p></div>
+      <div class="f eyebrow"><div class="f-lab">Column heading</div><p class="f-val">Ready when you are</p></div>
+      <div class="f"><div class="f-lab">Footer CTA blurb</div><p class="f-val">Book online in under a minute, or call and we'll find a time that works for you.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call the office</p></div>
+      <div class="f"><div class="f-lab">Copyright line</div><p class="f-val">© 2026 Creative Dentistry at Brooklyn Heights · Matthew Bellafiore DDS, PC</p></div>
+      <div class="f"><div class="f-lab">Footer tagline</div><p class="f-val">Out-of-network · Accepting new patients · LGBTQ+ friendly</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Booking Form (modal)</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Request an Appointment</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Let's find your time</p></div>
+      <div class="f"><div class="f-lab">Intro</div><p class="f-val">Tell us a little about you and we'll reach out within one business day to confirm. Prefer to talk? Call (718) 875-9424.</p></div>
+      <div class="f"><div class="f-lab">Field labels</div><p class="f-val small">Full name · Phone · Email · What can we help with? · Preferred day · Preferred time · Anything we should know? (optional)</p></div>
+      <div class="f"><div class="f-lab">Notes placeholder</div><p class="f-val small">First time at the dentist in a while, a little nervous, etc.</p></div>
+      <div class="f btn"><div class="f-lab">Submit button</div><p class="f-val">Request appointment</p></div>
+      <div class="f"><div class="f-lab">Alt line</div><p class="f-val small">Or call us directly at (718) 875-9424</p></div>
+      <div class="f"><div class="f-lab">Confirmation heading</div><p class="f-val">Thank you [name]!</p></div>
+      <div class="f"><div class="f-lab">Confirmation body</div><p class="f-val">Your request is in. A member of our team will reach out within one business day to confirm your visit.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ 02 · HOMEPAGE ============ -->
+  <section class="page" id="home">
+    <div class="page-head">
+      <div class="page-num">Page 02</div>
+      <h2>Homepage</h2>
+      <div class="pagemeta"><span class="page-url">/  ·  Creative Dentistry.html</span></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Browser / SEO</div>
+      <div class="f"><div class="f-lab">Page title</div><p class="f-val">Creative Dentistry at Brooklyn Heights — Restorative Dentistry for the Individual</p></div>
+      <div class="f"><div class="f-lab">Meta description</div><p class="f-val small">Creative Dentistry at Brooklyn Heights — premium, relationship-driven dental care from Dr. Bellafiore, Dr. Black &amp; Dr. Baer. Rooted in Brooklyn. Designed for you.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Hero</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Brooklyn Heights · Est. 1961</p></div>
+      <div class="f"><div class="f-lab">Headline</div><p class="f-val big">Rooted in Brooklyn. Designed for you.</p></div>
+      <div class="f"><div class="f-lab">Sub-headline</div><p class="f-val lede">Restorative dentistry for the individual — where precision meets personality. Comprehensive, unhurried care from a team that treats every patient like family.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book Your Visit · Call the office</p></div>
+      <div class="f"><div class="f-lab">Trust stats</div><p class="f-val">60+ Years in the neighborhood · 3 Doctors, one standard · 5.0★ Patient-rated care</p></div>
+      <div class="f"><div class="f-lab">Photo badge quote</div><p class="f-val">"Calm, premium, &amp; kind." — Loved by Brooklyn Heights patients</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Trust Band</div>
+      <div class="f"><div class="f-lab">Stat 1</div><p class="f-val">1961 — Caring for Brooklyn families since</p></div>
+      <div class="f"><div class="f-lab">Stat 2</div><p class="f-val">Pankey · Dawson &amp; ICOI-trained doctors</p></div>
+      <div class="f"><div class="f-lab">Stat 3</div><p class="f-val">60–90 min — Unhurried first-visit experience</p></div>
+      <div class="f"><div class="f-lab">Stat 4</div><p class="f-val">PPO+ — Out-of-network — we handle your claims</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Intro &amp; Pillars</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Excellence · Integrity · Compassion</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Dentistry, reimagined for the individual</p></div>
+      <div class="f"><div class="f-lab">Intro</div><p class="f-val lede">We combine advanced dentistry with genuine connection — an experience that feels personal, comfortable, and exceptionally professional. Not cookie-cutter smiles. Yours.</p></div>
+      <div class="f"><div class="f-lab">Pillar 1 — label / title</div><p class="f-val">01 — Excellence · <b>Precision-driven care</b></p></div>
+      <div class="f"><div class="f-lab">Pillar 1 — body</div><p class="f-val">Advanced technology and proven techniques, delivered by doctors with decades of continuing education in implants, restoration, and full-mouth rehabilitation.</p></div>
+      <div class="f"><div class="f-lab">Pillar 2 — label / title</div><p class="f-val">02 — Integrity · <b>Transparent plans</b></p></div>
+      <div class="f"><div class="f-lab">Pillar 2 — body</div><p class="f-val">A clear list of necessary steps and honest costs. No fluff, no pressure — we co-diagnose with you and recommend only what truly serves your health.</p></div>
+      <div class="f"><div class="f-lab">Pillar 3 — label / title</div><p class="f-val">03 — Compassion · <b>Designed around you</b></p></div>
+      <div class="f"><div class="f-lab">Pillar 3 — body</div><p class="f-val">You are welcomed, heard, and cared for like family. Personalized treatment built on trust, understanding, and a genuinely calm environment.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Film / Video Section</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Step Inside · A Short Film</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Some things you have to feel</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val lede">Take ninety seconds and walk our halls before you ever book — the light through the windows, the quiet of the lounge, the people who'll soon know you by name.</p></div>
+      <div class="f"><div class="f-lab">Player caption</div><p class="f-val small">A short film · Creative Dentistry · 01:30</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Services Overview</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Comprehensive Care, One Roof</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Everything your smile needs for a lifetime of health</p></div>
+      <div class="f"><div class="f-lab">Intro</div><p class="f-val lede">From preventive cleanings to complete smile transformations — thoughtfully delivered, all in Brooklyn Heights.</p></div>
+      <div class="f"><div class="f-lab">Card 1 — General &amp; Preventive</div><p class="f-val">Comprehensive exams, professional cleanings, digital X-rays, and oral-cancer screening to keep your smile healthy for life.</p></div>
+      <div class="f"><div class="f-lab">Card 2 — Cosmetic &amp; Smile Design</div><p class="f-val">Porcelain veneers, Zoom!® whitening, and composite bonding to enhance your natural beauty with artistry and balance.</p></div>
+      <div class="f"><div class="f-lab">Card 3 — Restorative Dentistry</div><p class="f-val">Tooth-colored fillings, crowns, and bridges that restore health and function with precision — and a result that looks entirely your own.</p></div>
+      <div class="f"><div class="f-lab">Card 4 — Dental Implants</div><p class="f-val">From a single tooth to full-arch restoration — computer-guided, CBCT-planned implants for long-lasting, natural results.</p></div>
+      <div class="f"><div class="f-lab">Card 5 — Clear Aligners</div><p class="f-val">Discreet ClearCorrect® and Invisalign® treatment, planned with our 3Shape Trios scanner — no messy impressions, no metal.</p></div>
+      <div class="f"><div class="f-lab">Card 6 — TMJ &amp; Facial Pain</div><p class="f-val">Relief for jaw tension and grinding with custom nightguards, splint therapy, and masseter Botox® — so you can rest at ease.</p></div>
+      <div class="f btn"><div class="f-lab">Card link (each)</div><p class="f-val">Learn more</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Your First Visit</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Your First Visit</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">What to expect when you walk through our door</p></div>
+      <div class="f"><div class="f-lab">Intro</div><p class="f-val lede">A first visit here is a 60–90 minute experience — never rushed, always personal.</p></div>
+      <div class="step"><div class="n">1</div><div><p class="st-h">A warm welcome</p><p class="st-p">You're greeted by name and offered coffee, tea, hot cider, or chilled water. We've already verified your insurance and forms, so your visit starts smoothly.</p></div></div>
+      <div class="step"><div class="n">2</div><div><p class="st-h">A complete picture</p><p class="st-p">A digital wellness scan and full set of X-rays give us — and you — a clear, comprehensive view of your oral health.</p></div></div>
+      <div class="step"><div class="n">3</div><div><p class="st-h">Co-diagnosis, together</p><p class="st-p">Using intraoral cameras, we review what we see side by side, so you understand your health and the "why" behind every recommendation.</p></div></div>
+      <div class="step"><div class="n">4</div><div><p class="st-h">A plan built for you</p><p class="st-p">You leave with a transparent, long-term treatment plan and honest costs — and the confidence that it was made for you, not a quota.</p></div></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Anxious Patients / At Ease</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Nervous About the Dentist?</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">You're in control here — every step of the way</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val lede">Many of our patients once dreaded dental visits. We designed this practice so you can finally relax: a calm, residential space and a team that listens first.</p></div>
+      <ul class="items">
+        <li><b>A calm, residential environment.</b> Traditional furnishings, natural light, and personalized music in every operatory.</li>
+        <li><b>Sedation when you want it.</b> Nitrous oxide (laughing gas) is available, and pre-visit anti-anxiety options can be arranged.</li>
+        <li><b>Comfort, considered.</b> Warm blankets and lavender-scented hot towels after treatment. Massaging chairs in select rooms.</li>
+        <li><b>Heard, every time.</b> Tell us your concerns up front — we plan around them, and you set the pace.</li>
+      </ul>
+      <div class="f" style="margin-top:18px"><div class="f-lab">Pull quote</div><p class="f-val">"Treat every patient with the same level of skill, compassion, and attention we would provide to our own family." — Our daily Standard of Care</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Meet Your Doctors</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Meet Your Doctors</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">The hands and hearts behind your care</p></div>
+      <div class="f"><div class="f-lab">Intro</div><p class="f-val lede">Three doctors, one uncompromising standard — Brooklyn-rooted, relationship-driven, and endlessly committed to your long-term health.</p></div>
+      <div class="f"><div class="f-lab">Dr. Bellafiore — name / role</div><p class="f-val">Dr. Matthew Bellafiore · Founder · DDS</p></div>
+      <div class="f"><div class="f-lab">Dr. Bellafiore — bio</div><p class="f-val">Born and raised in Brooklyn, Dr. Bellafiore has led this practice for 30+ years. An NYU-trained implant and full-mouth rehabilitation specialist with advanced study at the Pankey Institute, Dawson Academy, and ICOI.</p></div>
+      <div class="f"><div class="f-lab">Dr. Bellafiore — tags</div><p class="f-val small">Implant Placement · Full-Mouth Rehab · Pankey · Dawson</p></div>
+      <div class="f"><div class="f-lab">Dr. Black — name / role</div><p class="f-val">Dr. Alexander Black · Restorative &amp; Aligners · DDS</p></div>
+      <div class="f"><div class="f-lab">Dr. Black — bio</div><p class="f-val">A former computer scientist turned dentist who fell in love with Brooklyn during residency. Pankey-trained, with a detail-obsessed focus on restorative dentistry, clear aligners, and TMJ relief.</p></div>
+      <div class="f"><div class="f-lab">Dr. Black — tags</div><p class="f-val small">Clear Aligners · Restorative · TMJ / Botox</p></div>
+      <div class="f"><div class="f-lab">Dr. Baer — name / role</div><p class="f-val">Dr. Becca Baer · Restorative &amp; Prosthodontics · DDS</p></div>
+      <div class="f"><div class="f-lab">Dr. Baer — bio</div><p class="f-val">Trained at Indiana University and Montefiore's renowned Centennial Clinic, where she served as Chief Resident. Brings warmth and refined skill to restorative and complex prosthodontic care.</p></div>
+      <div class="f"><div class="f-lab">Dr. Baer — tags</div><p class="f-val small">Prosthodontics · Restorative · Chief Resident</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Technology</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Advanced Technology</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Modern tools, in service of a gentler experience</p></div>
+      <div class="f"><div class="f-lab">Intro</div><p class="f-val lede">We invest in technology for one reason: to make your care safer, more precise, and more comfortable.</p></div>
+      <div class="f"><div class="f-lab">CBCT 3D Imaging</div><p class="f-val">Three-dimensional scans let us plan implant placement with surgical-guide precision — safer procedures and more predictable results.</p></div>
+      <div class="f"><div class="f-lab">3Shape Trios Scanner</div><p class="f-val">Impression-free crowns and aligner cases. A quick digital scan replaces the goopy molds — more comfortable and more accurate.</p></div>
+      <div class="f"><div class="f-lab">Biolase Waterlase Laser</div><p class="f-val">Gentle laser gum therapy with minimal bleeding, less discomfort, faster healing, and a reduced risk of post-treatment infection.</p></div>
+      <div class="f"><div class="f-lab">ClearCorrect &amp; iTero</div><p class="f-val">Discreet, precisely-fitted aligners mapped to your bite — so straightening your smile fits seamlessly into a busy life.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Mission Quote</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Our Mission</p></div>
+      <div class="f"><div class="f-lab">Quote</div><p class="f-val big">"Our dental care is centered on one mission — to help each person who visits our office achieve their full potential."</p></div>
+      <div class="f"><div class="f-lab">Attribution</div><p class="f-val small">Dr. Matthew Bellafiore, DDS</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Membership · Financing · Insurance</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Membership · Financing · Insurance</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Premium care, made accessible</p></div>
+      <div class="f"><div class="f-lab">Intro</div><p class="f-val lede">We're out-of-network by design — so our recommendations answer to you, not an insurer. Here's how we make exceptional care attainable.</p></div>
+      <div class="f"><div class="f-lab">Plan 1 — tag / title / subtitle</div><p class="f-val">Most Popular · <b>In-House Membership</b> · For patients without insurance</p></div>
+      <div class="f"><div class="f-lab">Plan 1 — body</div><p class="f-val">Our own plan covers the care you actually need — and includes a discount on future treatment.</p></div>
+      <div class="f"><div class="f-lab">Plan 1 — list</div><p class="f-val small">Two annual exams &amp; cleanings · All necessary X-rays · One emergency exam · Discount on additional treatment</p></div>
+      <div class="f btn"><div class="f-lab">Plan 1 — button</div><p class="f-val">Ask about membership</p></div>
+      <div class="f"><div class="f-lab">Plan 2 — tag / title / subtitle</div><p class="f-val">Insurance · <b>PPO &amp; In-Network</b> · We handle the paperwork</p></div>
+      <div class="f"><div class="f-lab">Plan 2 — body</div><p class="f-val">Out-of-network but accepting PPO plans — we file claims for you. In-network with Delta Dental and CSEA.</p></div>
+      <div class="f"><div class="f-lab">Plan 2 — list</div><p class="f-val small">PPO claims filed on your behalf · Delta Dental &amp; CSEA in-network · Benefits verified before your visit</p></div>
+      <div class="f btn"><div class="f-lab">Plan 2 — button</div><p class="f-val">Verify my benefits</p></div>
+      <div class="f"><div class="f-lab">Plan 3 — tag / title / subtitle</div><p class="f-val">Financing · <b>Flexible Payments</b> · Care now, pay over time</p></div>
+      <div class="f"><div class="f-lab">Plan 3 — body</div><p class="f-val">Spread treatment across comfortable monthly payments with trusted financing partners — our front desk helps you apply.</p></div>
+      <div class="f"><div class="f-lab">Plan 3 — list</div><p class="f-val small">Cherry financing · Sunbit financing · Quick in-office application</p></div>
+      <div class="f btn"><div class="f-lab">Plan 3 — button</div><p class="f-val">Explore financing</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">New Patient Offer</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">New Patient Special</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Start with a smile</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val">New to Creative Dentistry? Begin with a comprehensive exam, a full set of X-rays, and a professional cleaning — at a special new-patient rate. It's the easiest first step toward care designed entirely around you.</p></div>
+      <div class="f"><div class="f-lab">Offer card</div><p class="f-val">New Smile — Exam + Full X-Rays + Cleaning · special new-patient rate</p></div>
+      <div class="f btn"><div class="f-lab">Button</div><p class="f-val">Claim this offer</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Areas Served</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Proudly Serving</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">A neighborhood practice for greater Brooklyn</p></div>
+      <div class="f"><div class="f-lab">Intro</div><p class="f-val lede">Welcoming patients from across the borough and beyond.</p></div>
+      <div class="f"><div class="f-lab">Neighborhoods</div><p class="f-val">Brooklyn Heights · Downtown Brooklyn · Cobble Hill · DUMBO · Boerum Hill · Carroll Gardens · Gowanus</p></div>
+    </div>
+  </section>
+
+
+  <!-- ============ 03 · GENERAL &AMP; PREVENTIVE ============ -->
+  <section class="page" id="svc-general">
+    <div class="page-head">
+      <div class="page-num">Page 03</div>
+      <h2>General &amp; Preventive</h2>
+      <div class="pagemeta"><span class="page-url">/services/general-preventive  ·  general-preventive.html</span></div>
+    </div>
+
+    <div class="reuse"><b>Note:</b> This page uses the same top bar, navigation, footer and booking form as every other page — those live in <b>Page 01 · Global &amp; Shared Elements</b>. Below is only the copy unique to this page.</div>
+
+    <div class="sec">
+      <div class="sec-label">Browser / SEO</div>
+      <div class="f"><div class="f-lab">Page title</div><p class="f-val">Healthy teeth, kept that way — Creative Dentistry at Brooklyn Heights</p></div>
+      <div class="f"><div class="f-lab">Meta description</div><p class="f-val small">Healthy teeth, kept that way at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Hero</div>
+      <div class="f"><div class="f-lab">Breadcrumb</div><p class="f-val small">Home / Services / General &amp; Preventive</p></div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">General &amp; Preventive</p></div>
+      <div class="f"><div class="f-lab">Headline (H1)</div><p class="f-val big">Healthy teeth, kept that way</p></div>
+      <div class="f"><div class="f-lab">Sub-headline</div><p class="f-val lede">The quiet, consistent care that stops problems before they start — comprehensive exams, gentle cleanings, and early detection, all in one calm visit.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call the office</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Overview</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Overview</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Prevention is the most powerful dentistry there is</p></div>
+      <div class="f"><div class="f-lab">Lead paragraph</div><p class="f-val lede">Most of what threatens your smile — decay, gum disease, a small crack — is far easier and far gentler to address when we catch it early. That is the entire point of a regular visit here.</p></div>
+      <div class="f"><div class="f-lab">Body paragraph</div><p class="f-val">Every six months we take a complete look: a thorough exam, a professional cleaning, digital X-rays only when they are warranted, and an honest conversation about anything we see. No upsell, no scare tactics — just a clear picture of where you stand.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What's Included</div>
+      <ul class="items">
+        <li><b>Comprehensive exams</b> — a full evaluation of teeth, gums, bite, and soft tissue.</li>
+        <li><b>Professional cleanings</b> — gentle, thorough hygiene that removes what brushing cannot.</li>
+        <li><b>Digital X-rays</b> — low-radiation imaging, taken only when clinically useful.</li>
+        <li><b>Oral-cancer screening</b> — a quick, painless check at every exam.</li>
+        <li><b>Gum health</b> — periodontal evaluation to keep your foundation strong.</li>
+        <li><b>Sealants &amp; fluoride</b> — simple protection for vulnerable teeth.</li>
+      </ul>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What to Expect</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">What to Expect</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">An unhurried visit, start to finish</p></div>
+      <div class="step"><div class="n">1</div><div><p class="st-h">Settle in</p><p class="st-p">Coffee or tea in hand, we review any changes to your health and listen to your concerns.</p></div></div>
+      <div class="step"><div class="n">2</div><div><p class="st-h">A complete look</p><p class="st-p">Exam, imaging when needed, and a gentle cleaning from a hygienist who takes their time.</p></div></div>
+      <div class="step"><div class="n">3</div><div><p class="st-h">On the same page</p><p class="st-p">We walk through what we found together on screen — you leave knowing exactly where things stand.</p></div></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Feature Block</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Why It Matters</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Care that prevents, not just repairs</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val lede">A steady rhythm of preventive visits is the single best investment you can make in your smile — it keeps small things small, and keeps you out of the chair for the big ones.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">FAQ</div>
+      <div class="qa"><p class="q">How often should I come in?</p><p class="a">For most patients, every six months. If you are managing gum disease or other concerns, we may suggest a tailored interval.</p></div>
+      <div class="qa"><p class="q">Do you take X-rays every visit?</p><p class="a">No. We take digital X-rays only when there is a clinical reason — and they are low-radiation when we do.</p></div>
+      <div class="qa"><p class="q">I have not been to a dentist in years. Is that a problem?</p><p class="a">Not at all, and you will not hear a word of judgment. We simply start with a complete picture and build a plan from there.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Closing CTA Band</div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Due for a visit?</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val">Start with a comprehensive exam and cleaning — the easiest first step toward care designed around you.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call (718) 875-9424</p></div>
+    </div>
+  </section>
+
+
+  <!-- ============ 04 · COSMETIC &AMP; SMILE DESIGN ============ -->
+  <section class="page" id="svc-cosmetic">
+    <div class="page-head">
+      <div class="page-num">Page 04</div>
+      <h2>Cosmetic &amp; Smile Design</h2>
+      <div class="pagemeta"><span class="page-url">/services/cosmetic-smile-design  ·  cosmetic-smile-design.html</span></div>
+    </div>
+
+    <div class="reuse"><b>Note:</b> This page uses the same top bar, navigation, footer and booking form as every other page — those live in <b>Page 01 · Global &amp; Shared Elements</b>. Below is only the copy unique to this page.</div>
+
+    <div class="sec">
+      <div class="sec-label">Browser / SEO</div>
+      <div class="f"><div class="f-lab">Page title</div><p class="f-val">A smile that looks like you — Creative Dentistry at Brooklyn Heights</p></div>
+      <div class="f"><div class="f-lab">Meta description</div><p class="f-val small">A smile that looks like you at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Hero</div>
+      <div class="f"><div class="f-lab">Breadcrumb</div><p class="f-val small">Home / Services / Cosmetic &amp; Smile Design</p></div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Cosmetic &amp; Smile Design</p></div>
+      <div class="f"><div class="f-lab">Headline (H1)</div><p class="f-val big">A smile that looks like you</p></div>
+      <div class="f"><div class="f-lab">Sub-headline</div><p class="f-val lede">Veneers, whitening, and bonding designed around your face and your personality — never a cookie-cutter set of too-white teeth.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call the office</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Overview</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Overview</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Beautiful, but unmistakably yours</p></div>
+      <div class="f"><div class="f-lab">Lead paragraph</div><p class="f-val lede">A beautiful smile is not about a shade of white. It is about balance — teeth that suit your face, your age, and the way you talk and laugh. We design with restraint, so the result reads as you on a good day, not as work done.</p></div>
+      <div class="f"><div class="f-lab">Body paragraph</div><p class="f-val">We start with what you would change and what you would never want to lose. Then we plan it, often with a preview, so you can see the direction before anything becomes permanent.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What's Included</div>
+      <ul class="items">
+        <li><b>Porcelain veneers</b> — custom shells that refine shape, color, and proportion subtly.</li>
+        <li><b>Zoom!® whitening</b> — professional in-office brightening in a single visit.</li>
+        <li><b>Composite bonding</b> — conservative, same-day repair of chips and gaps.</li>
+        <li><b>Smile design</b> — a holistic plan built around your face and goals.</li>
+        <li><b>Tooth recontouring</b> — subtle reshaping for a more harmonious look.</li>
+        <li><b>Smile preview</b> — see a mock-up of your future smile before you commit.</li>
+      </ul>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What to Expect</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">What to Expect</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Designed with you, not for you</p></div>
+      <div class="step"><div class="n">1</div><div><p class="st-h">Listen first</p><p class="st-p">We learn what you want to change — and just as importantly, what you love and want to keep.</p></div></div>
+      <div class="step"><div class="n">2</div><div><p class="st-h">Design &amp; preview</p><p class="st-p">We plan the smile and, where it helps, show you a preview before any permanent work.</p></div></div>
+      <div class="step"><div class="n">3</div><div><p class="st-h">Refine together</p><p class="st-p">We fit, adjust, and perfect until it feels unmistakably like you.</p></div></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Feature Block</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Our Approach</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Designed around your face</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val lede">Shape, proportion, and shade are chosen to suit you specifically — which is why our cosmetic work tends to get noticed as looking well-rested, not as looking done.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">FAQ</div>
+      <div class="qa"><p class="q">Will my veneers look fake?</p><p class="a">Not the way we design them. We choose shape and shade to suit your face — most people will only notice you look well-rested.</p></div>
+      <div class="qa"><p class="q">How white is too white?</p><p class="a">We guide you toward a shade that is bright but believable for your skin tone and age. The goal is natural, not neon.</p></div>
+      <div class="qa"><p class="q">How long does whitening last?</p><p class="a">It varies with diet and habits, but professional whitening lasts considerably longer than over-the-counter kits and is easy to touch up.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Closing CTA Band</div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Ready to love your smile?</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val">Book a cosmetic consultation and we will show you what is possible — honestly, and at your pace.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call (718) 875-9424</p></div>
+    </div>
+  </section>
+
+
+  <!-- ============ 05 · RESTORATIVE DENTISTRY ============ -->
+  <section class="page" id="svc-restorative">
+    <div class="page-head">
+      <div class="page-num">Page 05</div>
+      <h2>Restorative Dentistry</h2>
+      <div class="pagemeta"><span class="page-url">/services/restorative-dentistry  ·  restorative-dentistry.html</span></div>
+    </div>
+
+    <div class="reuse"><b>Note:</b> This page uses the same top bar, navigation, footer and booking form as every other page — those live in <b>Page 01 · Global &amp; Shared Elements</b>. Below is only the copy unique to this page.</div>
+
+    <div class="sec">
+      <div class="sec-label">Browser / SEO</div>
+      <div class="f"><div class="f-lab">Page title</div><p class="f-val">Function and beauty, restored — Creative Dentistry at Brooklyn Heights</p></div>
+      <div class="f"><div class="f-lab">Meta description</div><p class="f-val small">Function and beauty, restored at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Hero</div>
+      <div class="f"><div class="f-lab">Breadcrumb</div><p class="f-val small">Home / Services / Restorative Dentistry</p></div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Restorative Dentistry</p></div>
+      <div class="f"><div class="f-lab">Headline (H1)</div><p class="f-val big">Function and beauty, restored</p></div>
+      <div class="f"><div class="f-lab">Sub-headline</div><p class="f-val lede">Tooth-colored fillings, crowns, and bridges that bring back strength and health — with results that look entirely your own.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call the office</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Overview</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Overview</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Restored to health, invisibly</p></div>
+      <div class="f"><div class="f-lab">Lead paragraph</div><p class="f-val lede">When a tooth is damaged, the goal is simple: restore it to full health and function in a way that disappears into your smile. Modern materials let us do exactly that — no metal lines, no telltale repairs.</p></div>
+      <div class="f"><div class="f-lab">Body paragraph</div><p class="f-val">We are conservative by philosophy. We preserve as much healthy tooth structure as possible and rebuild only what is needed, so your restoration lasts and your bite stays comfortable.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What's Included</div>
+      <ul class="items">
+        <li><b>Tooth-colored fillings</b> — mercury-free composite matched precisely to your tooth.</li>
+        <li><b>Crowns</b> — custom crowns that rebuild strength, shape, and appearance.</li>
+        <li><b>Bridges</b> — fixed replacements that close a gap and even your bite.</li>
+        <li><b>Inlays &amp; onlays</b> — conservative lab-crafted restorations for larger repairs.</li>
+        <li><b>Full-mouth rehabilitation</b> — comprehensive reconstruction for complex cases.</li>
+        <li><b>Root canal therapy</b> — comfortable treatment that saves a natural tooth.</li>
+      </ul>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What to Expect</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">What to Expect</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Precise, conservative, comfortable</p></div>
+      <div class="step"><div class="n">1</div><div><p class="st-h">Diagnose precisely</p><p class="st-p">We pinpoint the issue with digital imaging and co-review it with you on screen.</p></div></div>
+      <div class="step"><div class="n">2</div><div><p class="st-h">Restore conservatively</p><p class="st-p">We rebuild only what is needed, preserving healthy structure with modern materials.</p></div></div>
+      <div class="step"><div class="n">3</div><div><p class="st-h">Check the bite</p><p class="st-p">We confirm everything feels natural and even before you leave.</p></div></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Feature Block</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Our Philosophy</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Conservative by design</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val lede">The best restoration is the one you forget you have. We protect healthy tooth structure, match materials to your natural teeth, and obsess over a bite that simply feels right.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">FAQ</div>
+      <div class="qa"><p class="q">Will my filling or crown match my teeth?</p><p class="a">Yes. We use tooth-colored materials shaded to blend seamlessly with your natural teeth.</p></div>
+      <div class="qa"><p class="q">How long do crowns and bridges last?</p><p class="a">With good care, many years — often a decade or more. We will show you how to protect them.</p></div>
+      <div class="qa"><p class="q">Do you offer same-day options?</p><p class="a">For many cases, yes. We will discuss timing based on exactly what your tooth needs.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Closing CTA Band</div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Bring back a tooth you can trust</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val">Book an evaluation and we will map out the gentlest path to a strong, natural-looking result.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call (718) 875-9424</p></div>
+    </div>
+  </section>
+
+
+  <!-- ============ 06 · DENTAL IMPLANTS ============ -->
+  <section class="page" id="svc-implants">
+    <div class="page-head">
+      <div class="page-num">Page 06</div>
+      <h2>Dental Implants</h2>
+      <div class="pagemeta"><span class="page-url">/services/dental-implants  ·  dental-implants.html</span></div>
+    </div>
+
+    <div class="reuse"><b>Note:</b> This page uses the same top bar, navigation, footer and booking form as every other page — those live in <b>Page 01 · Global &amp; Shared Elements</b>. Below is only the copy unique to this page.</div>
+
+    <div class="sec">
+      <div class="sec-label">Browser / SEO</div>
+      <div class="f"><div class="f-lab">Page title</div><p class="f-val">A permanent answer to a missing tooth — Creative Dentistry at Brooklyn Heights</p></div>
+      <div class="f"><div class="f-lab">Meta description</div><p class="f-val small">A permanent answer to a missing tooth at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Hero</div>
+      <div class="f"><div class="f-lab">Breadcrumb</div><p class="f-val small">Home / Services / Dental Implants</p></div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Dental Implants</p></div>
+      <div class="f"><div class="f-lab">Headline (H1)</div><p class="f-val big">A permanent answer to a missing tooth</p></div>
+      <div class="f"><div class="f-lab">Sub-headline</div><p class="f-val lede">From a single tooth to a full arch — computer-guided, CBCT-planned implants that look, feel, and function like your own.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call the office</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Overview</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Overview</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">The closest thing to your natural tooth</p></div>
+      <div class="f"><div class="f-lab">Lead paragraph</div><p class="f-val lede">An implant replaces the whole tooth — root and crown — so you can eat, speak, and smile without a second thought. It is the closest thing modern dentistry has to giving you your natural tooth back.</p></div>
+      <div class="f"><div class="f-lab">Body paragraph</div><p class="f-val">Dr. Bellafiore plans every case in three dimensions with CBCT imaging and surgical guides, so placement is precise and predictable. The result is a restoration built to last for decades.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What's Included</div>
+      <ul class="items">
+        <li><b>Single-tooth implants</b> — replace one tooth without touching the healthy ones beside it.</li>
+        <li><b>Implant-supported bridges</b> — replace several teeth with a stable, fixed solution.</li>
+        <li><b>Full-arch restoration</b> — a fixed set of teeth on a few well-placed implants.</li>
+        <li><b>CBCT-guided planning</b> — 3D imaging and surgical guides for precise placement.</li>
+        <li><b>Bone grafting</b> — rebuilding support where it is needed for a strong base.</li>
+        <li><b>Implant maintenance</b> — ongoing care to keep your implants healthy for life.</li>
+      </ul>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What to Expect</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">What to Expect</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Planned precisely, placed gently</p></div>
+      <div class="step"><div class="n">1</div><div><p class="st-h">Plan in 3D</p><p class="st-p">A CBCT scan maps bone, nerves, and the ideal position before anything begins.</p></div></div>
+      <div class="step"><div class="n">2</div><div><p class="st-h">Place precisely</p><p class="st-p">Guided, comfortable placement — many patients are surprised how easy it is.</p></div></div>
+      <div class="step"><div class="n">3</div><div><p class="st-h">Restore beautifully</p><p class="st-p">A custom crown or bridge completes the tooth, matched to your smile.</p></div></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Feature Block</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Technology</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Planned in three dimensions</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val lede">Every implant begins as a 3D plan. CBCT imaging and surgical guides let us place each one with millimeter precision — safer for you, and far more predictable in the long run.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">FAQ</div>
+      <div class="qa"><p class="q">Does getting an implant hurt?</p><p class="a">Most patients report far less discomfort than expected. We plan carefully and keep you comfortable throughout, with sedation available.</p></div>
+      <div class="qa"><p class="q">How long does the process take?</p><p class="a">It varies. After placement we allow time for healing before the final crown — we will map out your timeline clearly.</p></div>
+      <div class="qa"><p class="q">Am I a candidate?</p><p class="a">Many people are, even if they have been told otherwise. A consultation and 3D scan will tell us for certain.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Closing CTA Band</div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Replace a missing tooth for good</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val">Book a consultation and 3D scan — we will tell you honestly whether implants are right for you.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call (718) 875-9424</p></div>
+    </div>
+  </section>
+
+
+  <!-- ============ 07 · CLEAR ALIGNERS ============ -->
+  <section class="page" id="svc-aligners">
+    <div class="page-head">
+      <div class="page-num">Page 07</div>
+      <h2>Clear Aligners</h2>
+      <div class="pagemeta"><span class="page-url">/services/clear-aligners  ·  clear-aligners.html</span></div>
+    </div>
+
+    <div class="reuse"><b>Note:</b> This page uses the same top bar, navigation, footer and booking form as every other page — those live in <b>Page 01 · Global &amp; Shared Elements</b>. Below is only the copy unique to this page.</div>
+
+    <div class="sec">
+      <div class="sec-label">Browser / SEO</div>
+      <div class="f"><div class="f-lab">Page title</div><p class="f-val">Straighten your smile, quietly — Creative Dentistry at Brooklyn Heights</p></div>
+      <div class="f"><div class="f-lab">Meta description</div><p class="f-val small">Straighten your smile, quietly at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Hero</div>
+      <div class="f"><div class="f-lab">Breadcrumb</div><p class="f-val small">Home / Services / Clear Aligners</p></div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Clear Aligners</p></div>
+      <div class="f"><div class="f-lab">Headline (H1)</div><p class="f-val big">Straighten your smile, quietly</p></div>
+      <div class="f"><div class="f-lab">Sub-headline</div><p class="f-val lede">Discreet ClearCorrect® and Invisalign® treatment, planned with our 3Shape Trios scanner — no metal, no messy impressions.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call the office</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Overview</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Overview</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">The easiest path to straighter teeth</p></div>
+      <div class="f"><div class="f-lab">Lead paragraph</div><p class="f-val lede">Clear aligners straighten your teeth with a series of nearly invisible trays you can take out to eat, brush, and for the occasional photo. For most adults, it is the simplest way to get the smile they have always wanted.</p></div>
+      <div class="f"><div class="f-lab">Body paragraph</div><p class="f-val">We map your entire treatment digitally with the Trios scanner, so you can see the plan — and often a preview of your final result — before you begin.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What's Included</div>
+      <ul class="items">
+        <li><b>ClearCorrect®</b> — comfortable, nearly invisible aligners for a discreet fix.</li>
+        <li><b>Invisalign®</b> — the trusted aligner system, planned and managed in-house.</li>
+        <li><b>Digital scanning</b> — a quick 3Shape Trios scan replaces goopy impressions.</li>
+        <li><b>Treatment preview</b> — see a projection of your finished smile before you start.</li>
+        <li><b>Refinements</b> — fine-tuning to get the result exactly right.</li>
+        <li><b>Retainers</b> — custom retainers to protect your new smile for life.</li>
+      </ul>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What to Expect</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">What to Expect</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">See the plan before you start</p></div>
+      <div class="step"><div class="n">1</div><div><p class="st-h">Scan, do not squish</p><p class="st-p">A fast digital scan captures your teeth — no trays of putty.</p></div></div>
+      <div class="step"><div class="n">2</div><div><p class="st-h">See the plan</p><p class="st-p">We show you the step-by-step movement and your projected result.</p></div></div>
+      <div class="step"><div class="n">3</div><div><p class="st-h">Wear &amp; progress</p><p class="st-p">Swap trays on schedule, with easy check-ins as your smile straightens.</p></div></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Feature Block</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Digital First</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">You will see the plan first</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val lede">Before you commit, the Trios scanner lets us show you how your teeth will move and what your finished smile should look like — so you start with confidence, not guesswork.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">FAQ</div>
+      <div class="qa"><p class="q">How long does treatment take?</p><p class="a">Many cases finish in a matter of months, though it depends on your goals. We will estimate your timeline up front.</p></div>
+      <div class="qa"><p class="q">Will anyone notice I am wearing them?</p><p class="a">Rarely. The aligners are clear and removable — most people will not know unless you tell them.</p></div>
+      <div class="qa"><p class="q">Are aligners right for every case?</p><p class="a">They handle a wide range, but not all. We will tell you honestly if something else would serve you better.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Closing CTA Band</div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">A straighter smile, on your terms</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val">Book a scan and we will show you the plan and a preview of your result before you decide.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call (718) 875-9424</p></div>
+    </div>
+  </section>
+
+
+  <!-- ============ 08 · TMJ &AMP; FACIAL PAIN ============ -->
+  <section class="page" id="svc-tmj">
+    <div class="page-head">
+      <div class="page-num">Page 08</div>
+      <h2>TMJ &amp; Facial Pain</h2>
+      <div class="pagemeta"><span class="page-url">/services/tmj-facial-pain  ·  tmj-facial-pain.html</span></div>
+    </div>
+
+    <div class="reuse"><b>Note:</b> This page uses the same top bar, navigation, footer and booking form as every other page — those live in <b>Page 01 · Global &amp; Shared Elements</b>. Below is only the copy unique to this page.</div>
+
+    <div class="sec">
+      <div class="sec-label">Browser / SEO</div>
+      <div class="f"><div class="f-lab">Page title</div><p class="f-val">Relief for jaw pain and clenching — Creative Dentistry at Brooklyn Heights</p></div>
+      <div class="f"><div class="f-lab">Meta description</div><p class="f-val small">Relief for jaw pain and clenching at Creative Dentistry, Brooklyn Heights — premium, relationship-driven dental care. Rooted in Brooklyn. Designed for you.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Hero</div>
+      <div class="f"><div class="f-lab">Breadcrumb</div><p class="f-val small">Home / Services / TMJ &amp; Facial Pain</p></div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">TMJ &amp; Facial Pain</p></div>
+      <div class="f"><div class="f-lab">Headline (H1)</div><p class="f-val big">Relief for jaw pain and clenching</p></div>
+      <div class="f"><div class="f-lab">Sub-headline</div><p class="f-val lede">Custom nightguards, splint therapy, and masseter Botox® to ease tension, protect your teeth, and help you rest.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call the office</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Overview</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Overview</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Treatable, usually without anything invasive</p></div>
+      <div class="f"><div class="f-lab">Lead paragraph</div><p class="f-val lede">Jaw pain, morning headaches, worn or sensitive teeth, a clicking jaw — these are often signs of clenching, grinding, or a strained jaw joint. The good news is that they are very treatable, usually without anything invasive.</p></div>
+      <div class="f"><div class="f-lab">Body paragraph</div><p class="f-val">We start by understanding what is driving it, then choose the gentlest effective approach — from a custom guard you wear at night to targeted therapy that relaxes overworked muscles.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What's Included</div>
+      <ul class="items">
+        <li><b>Custom nightguards</b> — precisely fitted guards that protect teeth and ease tension.</li>
+        <li><b>Splint therapy</b> — appliances that reposition and rest a strained jaw.</li>
+        <li><b>Masseter Botox®</b> — targeted treatment that relaxes overworked jaw muscles.</li>
+        <li><b>Bite evaluation</b> — a close look at how your teeth meet — often the root cause.</li>
+        <li><b>Headache relief</b> — addressing the dental causes behind tension headaches.</li>
+        <li><b>Worn-tooth repair</b> — restoring teeth damaged by years of grinding.</li>
+      </ul>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">What to Expect</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">What to Expect</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Find the cause, relieve it gently</p></div>
+      <div class="step"><div class="n">1</div><div><p class="st-h">Find the cause</p><p class="st-p">We evaluate your bite, muscles, and joint to understand what is really going on.</p></div></div>
+      <div class="step"><div class="n">2</div><div><p class="st-h">Relieve gently</p><p class="st-p">We start with the least invasive approach that will actually work.</p></div></div>
+      <div class="step"><div class="n">3</div><div><p class="st-h">Protect long-term</p><p class="st-p">A plan to keep symptoms from returning — and your teeth protected.</p></div></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Feature Block</div>
+      <div class="f eyebrow"><div class="f-lab">Eyebrow</div><p class="f-val">Comfort First</p></div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Comfort, considered</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val lede">Relief should not be an ordeal. We lean on the gentlest options first — a custom guard, targeted therapy — and surround them with the warm blankets and calm that define every visit here.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">FAQ</div>
+      <div class="qa"><p class="q">Is the Botox® treatment safe?</p><p class="a">Yes, when administered by a trained clinician. We use it precisely to relax specific jaw muscles, with no effect on your expression.</p></div>
+      <div class="qa"><p class="q">Will a nightguard really help?</p><p class="a">For most people who clench or grind, yes — it protects your teeth and often relieves morning pain and headaches.</p></div>
+      <div class="qa"><p class="q">Could my headaches be dental?</p><p class="a">They can be. Clenching and a strained bite are common, under-recognized causes. An evaluation will tell us.</p></div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-label">Closing CTA Band</div>
+      <div class="f"><div class="f-lab">Heading</div><p class="f-val big">Wake up without the ache</p></div>
+      <div class="f"><div class="f-lab">Body</div><p class="f-val">Book an evaluation and we will find the cause of your jaw pain — and the gentlest way to relieve it.</p></div>
+      <div class="f btn"><div class="f-lab">Buttons</div><p class="f-val">Book a Visit · Call (718) 875-9424</p></div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
