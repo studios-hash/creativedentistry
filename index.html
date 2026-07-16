@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creative Dentistry at Brooklyn Heights — Restorative Dentistry for the Individual</title>
+<meta name="description" content="Creative Dentistry at Brooklyn Heights — premium, relationship-driven dental care from Dr. Bellafiore, Dr. Black & Dr. Baer. Rooted in Brooklyn. Designed for you.">
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140"><rect width="200" height="140" fill="#122349"/><text x="100" y="78" font-family="serif" font-size="40" fill="#f5b800" text-anchor="middle">CD</text></svg></template>
+<!--
+  ============================================================================
+  CREATIVE DENTISTRY AT BROOKLYN HEIGHTS — Homepage (v1)
+  ----------------------------------------------------------------------------
+  DESIGN RATIONALE (for review)
+  • Positioning: premium, relationship-first, OUT-of-network. Not volume/insurance
+    -driven. We lead with trust, calm and craft — never "cheap" or "corporate."
+  • Voice: confident, warm, editorial. "Restorative Dentistry for the Individual."
+    Tagline "Rooted in Brooklyn. Designed for You." Pillars: Excellence·Integrity·Compassion.
+  • System: Brooklyn Navy #1B2D5B + Bridge Gold #F5B800 on Marble Cream #F5F2EE.
+    Type = Lora (editorial serif display) + Inter (UI). Gold thin-rule motif echoes
+    the logo's bridge swoosh. Alternating cream / white / navy section rhythm.
+  • Imagery: warm editorial placeholders (Kinfolk × Condé Nast Traveler) with shot
+    notes for media day. Dr. Bellafiore's headshot is live; others are placeholders.
+  • Two audiences served deliberately: busy professionals (credibility, easy booking)
+    and anxious patients (a dedicated, reassuring "At ease" section).
+  • Booking is built-in (modal form) + click-to-call everywhere.
+  TWEAKS: accent color, hero layout, motion — toggle the Tweaks panel.
+  ============================================================================
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logomark-navy.svg">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- ============ UTILITY BAR ============ -->
+<div class="utility">
+  <div class="wrap">
+    <div class="u-left">
+      <a href="tel:+17188759424"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>(718) 875-9424</a>
+      <a href="#contact"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>185 Montague St, 3rd Fl · Brooklyn Heights</a>
+    </div>
+    <div class="u-right">
+      <a href="#contact">Mon–Thu 8–5 · Fri 8–4</a>
+      <a class="pill" data-book="">Out-of-network · Concierge care</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Creative Dentistry of Brooklyn Heights">
+      <img src="assets/logo-full-navy.svg" alt="Creative Dentistry of Brooklyn Heights">
+    </a>
+    <nav class="nav-links">
+      <a href="about/index.html">About Us</a>
+      <a href="services/index.html">Services</a>
+      <a href="emergency-dental.html">Emergency Dental</a>
+      <a href="patients/index.html">Patient Information</a>
+      <a href="smile-gallery.html">Smile Gallery</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="nav-cta-stack">
+        <button class="btn gold btn-sm" data-book="">Book a Visit</button>
+        <a class="nav-phone" href="tel:+17188759424"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>(718) 875-9424</a>
+      </div>
+      <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-top">
+    <img src="assets/logo-full-white.svg" alt="Creative Dentistry">
+    <button class="mm-close" data-mm-close aria-label="Close menu">&times;</button>
+  </div>
+  <a href="about/index.html">About Us</a>
+  <a href="services/index.html">Services</a>
+  <a href="emergency-dental.html">Emergency Dental</a>
+  <a href="patients/index.html">Patient Information</a>
+  <a href="smile-gallery.html">Smile Gallery</a>
+  <a href="reviews.html">Reviews</a>
+  <a href="contact.html">Contact</a>
+  <div class="mm-foot">
+    <button class="btn gold" data-book="">Book a Visit</button>
+    <a class="btn on-navy ghost" href="tel:+17188759424">Call (718) 875-9424</a>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow reveal">Welcome to Creative Dentistry of Brooklyn Heights | Established 1961</span>
+      <h1 class="display reveal d1" style="font-size:clamp(34px,5vw,58px)">Comprehensive, <span class="em">Multi-Doctor Dental Excellence</span> in Brooklyn Heights</h1>
+      <p class="lede reveal d2">Experience a modern, relationship-driven dental practice where your peace of mind is our standard of care. By combining three distinct clinical perspectives with advanced digital wellness systems, we deliver unhurried family wellness, elite restorative engineering, and specialized aesthetic solutions right in the heart of your neighborhood.</p>
+      <div class="hero-actions reveal d3">
+        <button class="btn gold" data-book="">Book Your Appointment Online
+          <svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+        <a class="btn ghost" href="contact.html">
+          <svg class="ico" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Contact Our Office
+        </a>
+      </div>
+    </div>
+    <div class="hero-media reveal d2">
+      <img class="hero-skyline" src="assets/logomark-navy.svg" alt="" aria-hidden="true">
+      <div class="hero-frame">
+        <img class="hero-photo" src="assets/photos/hero-homepage.jpg" alt="A Creative Dentistry doctor consulting with a patient in a bright Brooklyn Heights operatory" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+        <div class="hero-sky-alt">
+          <img src="assets/logomark-navy.svg" alt="Creative Dentistry skyline mark">
+          <span>At Brooklyn Heights</span>
+        </div>
+      </div>
+      <div class="hero-badge">
+        <div>
+          <div class="star">★★★★★</div>
+          <b>“Calm, premium, &amp; kind.”</b>
+          <small>Loved by Brooklyn Heights patients</small>
+        </div>
+      </div>
+    </div>
+    <div class="hero-trust reveal d3">
+      <div class="ht"><b>Est. 1961</b><span>A BROOKLYN HEIGHTS ANCHOR</span></div>
+      <div class="div"></div>
+      <div class="ht"><b>3 Doctors</b><span>ONE CLINICAL PHILOSOPHY</span></div>
+      <div class="div"></div>
+      <div class="ht"><b>Digital-First</b><span>CBCT · TRIOS · WATERLASE</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FILM / VIDEO ============ -->
+<section class="section film" id="film">
+  <div class="wrap">
+    <div class="film-head">
+      <span class="eyebrow reveal">Step Inside · A Short Film</span>
+      <h2 class="h2 reveal d1" style="margin-top:18px">Some things you have to feel</h2>
+      <p class="lede reveal d2">Take ninety seconds and walk our halls before you ever book — the light through the windows, the quiet of the lounge, the people who'll soon know you by name.</p>
+    </div>
+    <div class="film-stage reveal d1" id="filmStage" role="button" tabindex="0" aria-label="Play the practice film">
+      <img src="assets/photos/photo-exterior-real.jpg" alt="Creative Dentistry at Brooklyn Heights — the office building on Montague Street">
+      <button class="film-play" tabindex="-1" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+      <div class="film-meta"><span class="dot"></span> A short film · Creative Dentistry</div>
+      <div class="film-cap">01:30</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services" style="background:#fff">
+  <div class="wrap">
+    <div class="svc-head">
+      <div>
+        <span class="eyebrow reveal">Advanced Service Hubs</span>
+        <h2 class="h2 reveal d1" style="margin-top:18px">Advanced Service Hubs:<br>Tailored Care Routing</h2>
+      </div>
+    </div>
+    <div class="svc-grid svc-grid-8">
+      <article class="svc reveal">
+        <div class="ico-wrap"><svg viewBox="0 0 24 24"><path d="M12 5.5c2-2.5 6-2.5 7 .5 1 3-1 7-2 9-.6 1.2-1.4 1.2-1.8 0l-.7-2.2c-.3-.9-1.7-.9-2 0l-.7 2.2c-.4 1.2-1.2 1.2-1.8 0-1-2-3-6-2-9 1-3 5-3 7-.5z"/></svg></div>
+        <h3>General &amp; Preventive Care</h3>
+        <p>The clinical benchmark for lifelong wellness. Comprehensive exams, cancer screenings, low-radiation x-rays, and judgment-free cleaning plans designed to safeguard your natural enamel.</p>
+        <a class="more" href="services/general-preventive.html">Explore Preventive Dentistry <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="svc reveal d1">
+        <div class="ico-wrap"><svg viewBox="0 0 24 24"><path d="M12 3l1.9 4.6L19 9l-3.7 3.3.9 5L12 14.8 7.8 17.3l.9-5L5 9l5.1-1.4z"/></svg></div>
+        <h3>Cosmetic Dentistry &amp; Smile Makeovers</h3>
+        <p>Merging advanced materials with award-winning operative artistry to correct deep staining, spacing gaps, or overlapping lines with lifelike porcelain veneers and conservative bonding.</p>
+        <a class="more" href="services/cosmetic-smile-design.html">Explore Cosmetic Options <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="svc reveal d2">
+        <div class="ico-wrap"><svg viewBox="0 0 24 24"><path d="M12 2v6"/><path d="M9 5h6"/><path d="M8 9h8l-1 6.5a3 3 0 0 1-3 2.5 3 3 0 0 1-3-2.5z"/><path d="M12 18v3"/></svg></div>
+        <h3>Dental Implants &amp; Restorative Surgery</h3>
+        <p>Reclaim 100% of your organic biting force and protect your facial bone contours with state-of-the-art, computer-guided titanium missing tooth replacements.</p>
+        <a class="more" href="services/dental-implants.html">Explore Implant Restorations <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="svc reveal">
+        <div class="ico-wrap"><svg viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="8" rx="4"/><path d="M8 8v8M12 8v8M16 8v8"/></svg></div>
+        <h3>Discreet Clear Aligner Therapy</h3>
+        <p>Straighten crowded or misaligned teeth smoothly and nearly invisibly using advanced, stain-resistant Straumann ClearCorrect sequencing aligners custom-mapped in 3D.</p>
+        <a class="more" href="services/clear-aligners.html">Explore Aligner Systems <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="svc reveal d1">
+        <div class="ico-wrap"><svg viewBox="0 0 24 24"><path d="M4 9c0-2 3.5-4 8-4s8 2 8 4v3c0 3-3.5 5-8 5s-8-2-8-5z"/><path d="M8 10v2M12 9v4M16 10v2"/></svg></div>
+        <h3>Dentures &amp; Advanced Prosthodontics</h3>
+        <p>Restore natural pronunciation and facial support through precision-fitted partials, full complete dentures, or rock-solid implant-supported hybrid overdentures.</p>
+        <a class="more" href="services/dentures-partials.html">Explore Prosthodontic Solutions <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="svc reveal d2">
+        <div class="ico-wrap"><svg viewBox="0 0 24 24"><path d="M12 3c4.5 1 7 3.5 7 7.5 0 5-3 8.5-7 9.5-4-1-7-4.5-7-9.5C5 6.5 7.5 4 12 3z"/><path d="M9 12h6"/></svg></div>
+        <h3>Periodontal Care &amp; Gum Health</h3>
+        <p>Reverse bleeding gums and manage chronic bone loss comfortably utilizing highly effective sub-gingival scaling and advanced Biolase Waterlase laser decontamination.</p>
+        <a class="more" href="services/periodontal-care.html">Explore Periodontal Therapies <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="svc reveal">
+        <div class="ico-wrap"><svg viewBox="0 0 24 24"><path d="M5 9a7 7 0 0 1 14 0c0 3-1.5 4-1.5 7M9 20c0-2-1.5-3-1.5-5"/><path d="M9.5 9.5c1.5-1 3.5-1 5 0"/></svg></div>
+        <h3>TMJ Therapy &amp; Masseter Botox®</h3>
+        <p>Eliminate painful jaw popping, jaw stiffness, and intense morning migraines through specialized hard-acrylic nightguards and therapeutic Allergan Botox® muscle relaxation.</p>
+        <a class="more" href="services/tmj-facial-pain.html">Explore TMJ Solutions <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="svc reveal d1">
+        <div class="ico-wrap"><svg viewBox="0 0 24 24"><path d="M12 5.5c2-2.5 6-2.5 7 .5 1 3-1 7-2 9-.6 1.2-1.4 1.2-1.8 0l-.7-2.2c-.3-.9-1.7-.9-2 0l-.7 2.2c-.4 1.2-1.2 1.2-1.8 0-1-2-3-6-2-9 1-3 5-3 7-.5z"/><circle cx="12" cy="10" r="1.3"/></svg></div>
+        <h3>Gentle Routine Root Canals</h3>
+        <p>Stop severe, throbbing internal nerve pain quickly and preserve your natural tooth structure using routine, thoroughly disinfected canal endodontic sealing protocols.</p>
+        <a class="more" href="services/root-canal-therapy.html">Explore Endodontic Care <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT / 3 RESIDENT EXPERTS ============ -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="center" style="max-width:780px;margin:0 auto">
+      <span class="eyebrow center reveal">Practice Overview</span>
+      <h2 class="h2 reveal d1" style="margin:20px 0 18px">3 Resident Experts. One Unified Philosophy.</h2>
+      <p class="lede reveal d2" style="margin:0 auto">Corporate dental clinics often rely on rotating, transient dentists who do not know you by name. Our private practice operates as an interdisciplinary triage, combining the specialized institutional training of three permanent resident doctors. Before a complex care map is ever presented to you, our doctors cross-examine the records behind the scenes to engineer a solution built for biological longevity.</p>
+    </div>
+    <div class="docs-grid">
+      <article class="doc reveal">
+        <div class="photo"><img src="assets/photos/dr-bellafiore-real.jpg" alt="Dr. Matthew Bellafiore, DDS"></div>
+        <div class="info">
+          <h3>Dr. Matthew Bellafiore</h3>
+          <div class="role">Founder · DDS</div>
+          <p>An NYU Dental School alumnus and Lutheran Medical Center GPR graduate. Dr. Bellafiore has provided over 30 years of private practice leadership to the borough, holding elite credentials with the International Congress of Oral Implantologists (ICOI) and active continuums at the Dawson Academy and Pankey Institute.</p>
+          <div class="tags"><span>Implant Placement</span><span>Restorative Dentistry</span><span>Full Mouth Rehabilitation</span></div>
+        </div>
+      </article>
+      <article class="doc reveal d1">
+        <div class="photo"><img src="assets/photos/dr-black-real.jpg" alt="Dr. Alexander Black, DDS"></div>
+        <div class="info">
+          <h3>Dr. Alexander Black</h3>
+          <div class="role">DDS</div>
+          <p>Combining a background in Computer Science with a DDS from the Touro College of Dental Medicine, where he received the Marc A. Rosenblum Award for Excellence in Operative Dentistry. Dr. Black completed his advanced residency with NYU Langone in Sunset Park, focusing on clear aligners and neuromuscular jaw therapies.</p>
+          <div class="tags"><span>Clear Aligners</span><span>Restorative Dentistry</span><span>Masseter Botox</span></div>
+        </div>
+      </article>
+      <article class="doc reveal d2">
+        <div class="photo"><img src="assets/photos/dr-baer-real.jpg" alt="Dr. Becca Baer, DDS"></div>
+        <div class="info">
+          <h3>Dr. Becca Baer: Experienced Hospital Chief Resident &amp; Team Lead</h3>
+          <div class="role">DDS</div>
+          <p>An Indiana University graduate who completed a prestigious, multi-year General Practice Residency within the Montefiore Health System. Serving as Chief Resident at the Centennial Clinic, Dr. Baer possesses extensive, hospital-honed expertise in complex prosthodontic smile reconstructions.</p>
+          <div class="tags"><span>Clear Aligners</span><span>Restorative Dentistry</span><span>Masseter Botox</span></div>
+        </div>
+      </article>
+    </div>
+    <div class="center" style="margin-top:44px">
+      <a class="btn ghost reveal" href="about/doctors.html">Read Our Complete Doctor Biographies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DIFFERENTIATION / HOSPITALITY ============ -->
+<section class="section exp" id="experience">
+  <div class="wrap">
+    <div class="center" style="max-width:780px;margin:0 auto 54px">
+      <span class="eyebrow center reveal">Rewriting the First Impression</span>
+      <h2 class="h2 reveal d1" style="margin:18px 0 8px">Dental Hospitality Reimagined</h2>
+      <p class="lede reveal d2" style="margin:0 auto">While neighborhood competitors continue to utilize cold, sterile clinical templates, our physical practice space is engineered as a sensory decompressing sanctuary. We recognize that dental anxiety keeps thousands from seeking necessary care, which is why we place your physical comfort, structural pacing, and psychological safety at the absolute center of our intake workflow.</p>
+    </div>
+    <div class="exp-grid">
+      <div class="exp-media reveal">
+        <img src="assets/photos/hospitality-reimagined.jpg" alt="A calm, modern treatment room at Creative Dentistry with a green accent wall" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%">
+      </div>
+      <div>
+        <h3 class="h3" style="margin-bottom:12px">Step Off the Elevator Into a Tranquil Space</h3>
+        <p style="color:var(--muted);margin-bottom:30px">Located right on Montague Street in a multi-story building, our entrance sits directly adjacent to Chipotle. Take the elevator straight to the 3rd floor, turn to the right in the hallway, and leave the fast-paced rush of Brooklyn behind. You are greeted face-to-face warmly by name by our gracious staff. Enjoy a gourmet selection from our Keurig beverage bar, featuring fresh coffee, tea, refrigerated water, seasonal hot cider, or hot chocolate, before continuing seamlessly into your check-in with absolutely zero paperwork-rush.</p>
+        <h3 class="h3" style="margin-bottom:12px">Premium Dental Operatories</h3>
+        <p style="color:var(--muted)">Every treatment suite is curated with large windows showcasing local views, allowing natural light to fill the room. Relax into high-end dental chairs featuring built-in massaging options, wrap yourself in cozy blankets, and tune out the world with personalized music selections. We offer comforting nitrous oxide options to keep you in total control of your appointment, and we conclude every visit by presenting you with our signature, lavender-scented hot towel.</p>
+        <a class="btn ghost reveal" style="margin-top:26px" href="about/staff.html">Meet Our Welcoming Staff</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PATIENT QUALIFIER ============ -->
+<section class="section calm" id="comfort">
+  <div class="wrap">
+    <div class="center" style="max-width:780px;margin:0 auto 40px">
+      <span class="eyebrow center reveal">Who We Serve</span>
+      <h2 class="h2 reveal d1" style="margin:18px 0 14px">The Benchmark for Quality, Conservative Dental Care</h2>
+      <p class="lede reveal d2" style="margin:0 auto">We believe in conservative, fluff-free dentistry. Our practice does not engage in corporate over-diagnosis or high-pressure sales tactics; we co-diagnose your smile using clear intraoral screens so you can see exactly what our doctors see. Our practice model is especially tailored for:</p>
+    </div>
+    <ul class="svc-list reveal" style="max-width:820px;margin-inline:auto">
+      <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Busy Brooklyn professionals who demand strict scheduling punctuality, seamless text-based check-ins, and highly efficient appointments.</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Multi-generational families seeking an authentic, privately owned dental home capable of managing primary care and complex surgery in one location.</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>High-anxiety patients who require specialized sensory amenities, compassionate active listening, and gentle clinical execution.</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Union members, civil servants, and local employees looking to maximize direct-network benefits or out-of-network corporate insurance plans.</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Brooklynites searching for an LGBTQ+ friendly practice and a Transgender safe space.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ TECHNOLOGY ============ -->
+<section class="section tech" id="technology">
+  <div class="wrap">
+    <div style="max-width:720px">
+      <span class="eyebrow reveal">Technology Highlight</span>
+      <h2 class="h2 reveal d1" style="margin:18px 0 16px">State-of-the-Art Diagnostics<br>for Painless Care</h2>
+      <p class="lede reveal d2">True clinical excellence requires advanced technology that minimizes invasiveness and speeds up healing times. Our practice has completely replaced old-fashioned, gag-inducing putty trays with the pristine 3Shape Trios Digital Scanner to capture perfect models of your enamel in minutes. We combine this with High-Definition 3D CBCT Scans to plan highly predictable, computer-guided surgical implant templates, and use the non-invasive Biolase Waterlase Laser system to clear away deep gum infections comfortably with minimal bleeding and an entirely painless recovery.</p>
+      <a class="btn ghost on-navy reveal" href="about/technology.html">Our Dental Technology</a>
+    </div>
+    <div class="tech-head reveal d1" style="margin-top:44px">
+      <img src="assets/photos/photo-scanner-detail.jpg" alt="A digital intraoral scanner displaying a 3D scan on a laptop in a Creative Dentistry operatory" style="object-position:center">
+      <p>Every scan, image, and plan happens digitally and in real time — so you see exactly what we see, before a single decision is made.</p>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-card reveal">
+        <div class="tico"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 3v9l6.5 3.5"/><circle cx="12" cy="12" r="1.5"/></svg></div>
+        <div><h3>CBCT 3D Imaging</h3><p>Three-dimensional scans let us plan implant placement with surgical-guide precision — safer procedures and more predictable results.</p></div>
+      </div>
+      <div class="tech-card reveal d1">
+        <div class="tico"><svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M9 12h6M9 16h6"/><path d="M9 8h3"/></svg></div>
+        <div><h3>3Shape Trios Scanner</h3><p>Impression-free crowns and aligner cases. A quick digital scan replaces the goopy molds — more comfortable and more accurate.</p></div>
+      </div>
+      <div class="tech-card reveal">
+        <div class="tico"><svg viewBox="0 0 24 24"><path d="M4 13l8-9 2 2-6 8z"/><path d="M10 14l-3 5-3-1 4-5z"/><path d="M14 6l4 4"/></svg></div>
+        <div><h3>Biolase Waterlase Laser</h3><p>Gentle laser gum therapy with minimal bleeding, less discomfort, faster healing, and a reduced risk of post-treatment infection.</p></div>
+      </div>
+      <div class="tech-card reveal d1">
+        <div class="tico"><svg viewBox="0 0 24 24"><rect x="4" y="9" width="16" height="7" rx="3.5"/><path d="M8 9v7M12 9v7M16 9v7"/></svg></div>
+        <div><h3>ClearCorrect &amp; iTero</h3><p>Discreet, precisely-fitted aligners mapped to your bite — so straightening your smile fits seamlessly into a busy life.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BILLING / MEMBERSHIP / FINANCING / INSURANCE ============ -->
+<section class="section" id="membership" style="background:#fff">
+  <div class="wrap">
+    <div class="center" style="max-width:780px;margin:0 auto">
+      <span class="eyebrow center reveal">Billing</span>
+      <h2 class="h2 reveal d1" style="margin:20px 0 16px">Premium Care, Made Accessible</h2>
+      <p class="lede reveal d2" style="margin:0 auto">We maintain complete clarity regarding your healthcare billing. If you hold commercial insurance, our front desk coordinates daily with major corporate PPOs as an out-of-network specialist provider, submitting all complex claims paperwork on your behalf to ensure you maximize your reimbursement benefits without the administrative hassle (verify online on our <a href="patients/insurance.html">Insurance page</a>).</p>
+      <h3 class="h3" style="margin:34px 0 12px">Direct-Network Access &amp; Private Safety Nets</h3>
+      <p class="lede reveal d2" style="margin:0 auto">We proudly maintain active, direct network participation with Delta Dental and CSEA to provide optimal value for Brooklynites. For our local neighbors entirely without traditional commercial coverage, you can instantly join our affordable private In-House Membership Plan, which fully covers your annual cleanings, exams, and diagnostic digital records for one flat fee. For higher-value treatments or cosmetic work, we partner directly with Cherry and Sunbit to offer flexible, low-interest monthly financing payment layouts with soft credit checks and fast approvals (explore solutions on our <a href="patients/financing.html">Financing page</a>).</p>
+    </div>
+    <div class="plan-media reveal d2"><img src="assets/photos/photo-promenade-view.jpg" alt="The view of the Manhattan skyline from the Brooklyn Heights Promenade, steps from Creative Dentistry" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div>
+    <div class="plans">
+      <div class="plan feature reveal">
+        <div class="ptag">Most Popular</div>
+        <h3>In-House Membership</h3>
+        <div class="pamt">For patients without insurance</div>
+        <p>Our own plan covers the care you actually need — and includes a discount on future treatment.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Two annual exams &amp; cleanings</li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>All necessary X-rays</li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>One emergency exam</li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Discount on additional treatment</li>
+        </ul>
+        <button class="btn gold" data-book="In-House Membership">Ask about membership</button>
+      </div>
+      <div class="plan reveal d1">
+        <div class="ptag">Insurance</div>
+        <h3>PPO &amp; In-Network</h3>
+        <div class="pamt">We handle the paperwork</div>
+        <p>Out-of-network but accepting PPO plans — we file claims for you. In-network with Delta Dental and CSEA.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>PPO claims filed on your behalf</li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Delta Dental &amp; CSEA in-network</li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Benefits verified before your visit</li>
+        </ul>
+        <button class="btn ghost" data-book="Insurance Verification">Verify my benefits</button>
+      </div>
+      <div class="plan reveal d2">
+        <div class="ptag">Financing</div>
+        <h3>Flexible Payments</h3>
+        <div class="pamt">Care now, pay over time</div>
+        <p>Spread treatment across comfortable monthly payments with trusted financing partners — our front desk helps you apply.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Cherry financing</li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Sunbit financing</li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 6"/></svg>Quick in-office application</li>
+        </ul>
+        <button class="btn ghost" data-book="Financing">Explore financing</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" style="background:#fff">
+  <div class="wrap" style="max-width:820px">
+    <div class="center" style="margin-bottom:44px">
+      <span class="eyebrow center reveal">Frequently Asked Questions</span>
+    </div>
+    <div class="faq reveal">
+      <details>
+        <summary>How early do I need to arrive to fill out my new patient intake forms?<span class="pm"></span></summary>
+        <p>We strictly protect your schedule and keep wait times minimal. Our office utilizes a paperless, fully digital check-in; we text secure data links directly to your personal mobile device, allowing you to complete your info and medical history securely from home before your appointment. We also have iPads in the office if you do not have your phone with you to fill out these forms.</p>
+      </details>
+      <details>
+        <summary>What is your office policy regarding appointment cancellations or modifications?<span class="pm"></span></summary>
+        <p>Because we dedicate a substantial block of unhurried time exclusively to you and never double-book our providers, we strictly require a 48 hour notice to cancel or reschedule a reservation to avoid a $125.00 fee. You have total flexibility to coordinate adjustments with our desk via text, email, or a standard phone call.</p>
+      </details>
+      <details>
+        <summary>Which public transportation lines run closest to your building entrance?<span class="pm"></span></summary>
+        <p>Our building sits steps from the Borough Hall Station (servicing the 2, 3, 4, and 5 trains) and the Court Street Station (servicing the M and R lines). We are also a brief 3-minute walk from the Jay Street–Borough Hall Station (A, C, and F lines) and are directly served by local surface bus routes B25, B26, B38, B41, B51, and B52.</p>
+      </details>
+      <details>
+        <summary>Is there a safe place to park my car or secure a bicycle outside your office?<span class="pm"></span></summary>
+        <p>Yes. A secure, fully staffed paid indoor valet parking garage is located directly across the street from our front entrance on Montague Street, allowing for seamless driving arrival. Additionally, an active NYC CitiBike docking station sits directly outside our main building entrance doors.</p>
+      </details>
+      <details>
+        <summary>How does your multi-doctor team handle dental emergencies?<span class="pm"></span></summary>
+        <p>Emergency dental care is given strict priority on our schedule. We reserve dedicated blocks every single day to ensure that patients experiencing severe toothaches, infection swelling, or broken teeth can secure same-day stabilization, advanced pain relief, and immediate diagnostic clarity. Should you have a dental emergency, always call us at (718) 875-9424, even if it is past our office hours.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section" style="background:var(--cream)">
+  <div class="wrap">
+    <div class="cta-band">
+      <img class="o-sky" src="assets/logomark-white.svg" alt="" aria-hidden="true">
+      <div class="cta-content">
+        <div class="cta-text">
+          <h2 class="h2 reveal">Reserve Your Comprehensive Checkup with Our Team Today</h2>
+          <p class="reveal d1">Discover a localized private practice where clinical depth, modern digital systems, and genuine hospitality unite. Click below to view our live schedule and reserve an unhurried, transparent checkup slot that fits seamlessly into your busy week.</p>
+        </div>
+        <div class="cta-actions">
+          <button class="btn gold" data-book="">Schedule Your Visit Online Now
+            <svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <a class="btn on-navy ghost" href="contact.html">View Extended Driving &amp; Transit Directions</a>
+        </div>
+      </div>
+      <div class="cta-media"><img src="assets/photos/comprehensive-checkup.jpg" alt="A doctor reviewing a digital scan with a patient at Creative Dentistry" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AREAS SERVED ============ -->
+<section class="section areas" style="background:#fff">
+  <div class="wrap">
+    <span class="eyebrow center reveal">Proudly Serving</span>
+    <h2 class="h2 reveal d1" style="margin:18px 0 8px">A neighborhood practice for greater Brooklyn</h2>
+    <p class="lede reveal d2" style="margin:0 auto">Welcoming patients from across the borough and beyond.</p>
+    <div class="area-list reveal d2">
+      <span>Brooklyn Heights</span>
+      <span>Downtown Brooklyn</span>
+      <span>Cobble Hill</span>
+      <span>DUMBO</span>
+      <span>Boerum Hill</span>
+      <span>Carroll Gardens</span>
+      <span>Gowanus</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER / CONTACT ============ -->
+<footer class="footer" id="contact">
+  <div class="wrap">
+    <div class="ftop">
+      <div class="brand-col">
+        <img src="assets/logo-full-white.svg" alt="Creative Dentistry of Brooklyn Heights">
+        <p>Restorative dentistry for the individual. Rooted in Brooklyn, designed for you — excellence, integrity, and compassion in every visit.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.5"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M15 8h-2a2 2 0 0 0-2 2v2H9v3h2v6h3v-6h2.5l.5-3H14v-1.5a.5.5 0 0 1 .5-.5H17z"/></svg></a>
+          <a href="#" aria-label="Google"><svg viewBox="0 0 24 24"><path d="M21 12.2c0-.7-.06-1.2-.18-1.8H12v3.3h5.1a4.4 4.4 0 0 1-1.9 2.9v2.4h3.1C19.9 17.4 21 15 21 12.2z"/><path d="M12 21c2.4 0 4.5-.8 6-2.2l-3.1-2.4c-.8.6-1.9 1-2.9 1a5 5 0 0 1-4.7-3.4H4.1v2.4A9 9 0 0 0 12 21z"/></svg></a>
+        </div>
+      </div>
+      <div class="fcol">
+        <h4>Visit</h4>
+        <p>185 Montague Street<br>3rd Floor<br>Brooklyn, NY 11201</p>
+        <a href="tel:+17188759424">(718) 875-9424</a>
+        <a href="mailto:hello@creativedentistrybrooklyn.com">hello@creativedentistrybrooklyn.com</a>
+        <p class="getting">Building lobby entrance beside Chipotle — take the elevator to the 3rd floor and ring the doorbell. Nearest the 2·3·4·5 at Borough Hall; Citi Bike &amp; valet right outside.</p>
+      </div>
+      <div class="fcol hours">
+        <h4>Hours</h4>
+        <div><span>Monday</span><span>8:00 – 5:00</span></div>
+        <div><span>Tuesday</span><span>8:00 – 5:00</span></div>
+        <div><span>Wednesday</span><span>8:00 – 5:00</span></div>
+        <div><span>Thursday</span><span>8:00 – 5:00</span></div>
+        <div><span>Friday</span><span>8:00 – 4:00</span></div>
+        <div><span>Sat / Sun</span><span>Closed</span></div>
+        <p class="getting" style="margin-top:12px">Spoken here: English · Spanish · Polish</p>
+      </div>
+      <div class="fcol">
+        <h4>Ready when you are</h4>
+        <p class="getting" style="margin-bottom:16px">Book online in under a minute, or call and we'll find a time that works for you.</p>
+        <button class="btn gold" data-book="" style="margin-bottom:12px">Book a Visit</button>
+        <a class="btn on-navy ghost" href="tel:+17188759424">Call the office</a>
+      </div>
+    </div>
+  </div>
+  <div class="fbar">
+    <div class="wrap">
+      <span>© <span id="year">2026</span> Creative Dentistry at Brooklyn Heights · Matthew Bellafiore DDS, PC</span>
+      <span class="areas-served">Areas Served: <a href="communities/brooklyn-heights.html">Brooklyn Heights</a> · <a href="communities/dumbo.html">DUMBO</a> · <a href="communities/cobble-hill-carroll-gardens.html">Cobble Hill &amp; Carroll Gardens</a> · <a href="communities/downtown-brooklyn.html">Downtown Brooklyn</a> · <a href="communities/boerum-hill.html">Boerum Hill</a> · <a href="communities/gowanus.html">Gowanus</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FILM LIGHTBOX ============ -->
+<div class="film-lb" id="filmLightbox" role="dialog" aria-modal="true" aria-label="Creative Dentistry — practice film">
+  <div class="film-lb-ov" data-film-close></div>
+  <div class="film-lb-inner">
+    <button class="film-lb-close" data-film-close aria-label="Close film">&times;</button>
+    <video id="filmVideo" controls playsinline preload="none" poster="assets/photos/photo-exterior-real.jpg">
+      <!-- SWAP IN YOUR FILM: drop the final cut at assets/practice-film.mp4 and add <source src="assets/practice-film.mp4" type="video/mp4"> here to play automatically. -->
+    </video>
+    <div class="film-lb-ph" id="filmPh">
+      <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#9fb0d0" stroke-width="1.4"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      <div class="mono">Your practice film will play right here.<br>Drop the final cut at <b>assets/practice-film.mp4</b> — or hand me a Vimeo / YouTube link and I'll embed it.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ BOOKING MODAL ============ -->
+<div class="modal-root" id="bookModal" role="dialog" aria-modal="true" aria-labelledby="bookTitle">
+  <div class="modal-overlay" data-modal-close></div>
+  <div class="modal">
+    <div class="modal-head">
+      <button class="modal-close" data-modal-close aria-label="Close">&times;</button>
+      <span class="eyebrow">Request an Appointment</span>
+      <h3 id="bookTitle">Let's find your time</h3>
+      <p>Tell us a little about you and we'll reach out within one business day to confirm. Prefer to talk? Call (718) 875-9424.</p>
+    </div>
+    <div class="modal-body" id="bookFormBody">
+      <form id="bookForm" novalidate>
+        <div class="field row">
+          <div data-field="name">
+            <label>Full name</label>
+            <input name="name" type="text" placeholder="Jane Doe" autocomplete="name">
+            <div class="msg">Please enter your name.</div>
+          </div>
+          <div data-field="phone">
+            <label>Phone</label>
+            <input name="phone" type="tel" placeholder="(718) 000-0000" autocomplete="tel">
+            <div class="msg">Please enter a valid phone.</div>
+          </div>
+        </div>
+        <div class="field" data-field="email">
+          <label>Email</label>
+          <input name="email" type="email" placeholder="you@email.com" autocomplete="email">
+          <div class="msg">Please enter a valid email.</div>
+        </div>
+        <div class="field">
+          <label>What can we help with?</label>
+          <select name="service">
+            <option>New Patient Visit</option>
+            <option>General &amp; Preventive</option>
+            <option>Cosmetic &amp; Smile Design</option>
+            <option>Restorative Dentistry</option>
+            <option>Dental Implants</option>
+            <option>Clear Aligners</option>
+            <option>TMJ &amp; Facial Pain</option>
+            <option>In-House Membership</option>
+            <option>Insurance Verification</option>
+            <option>Financing</option>
+            <option>New Patient Special</option>
+          </select>
+        </div>
+        <div class="field row">
+          <div>
+            <label>Preferred day</label>
+            <select name="day">
+              <option>No preference</option><option>Monday</option><option>Tuesday</option>
+              <option>Wednesday</option><option>Thursday</option><option>Friday</option>
+            </select>
+          </div>
+          <div>
+            <label>Preferred time</label>
+            <select name="time">
+              <option>No preference</option><option>Morning (8–11)</option><option>Midday (11–2)</option><option>Afternoon (2–5)</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label>Anything we should know? <span style="color:var(--muted);font-weight:400">(optional)</span></label>
+          <textarea name="notes" rows="2" placeholder="First time at the dentist in a while, a little nervous, etc."></textarea>
+        </div>
+        <button class="btn gold" type="submit">Request appointment
+          <svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+        <p class="alt">Or call us directly at <a href="tel:+17188759424">(718) 875-9424</a></p>
+      </form>
+    </div>
+    <div class="confirm" id="bookDone" style="display:none">
+      <div class="ok"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+      <h3>Thank you<span id="doneName"></span>!</h3>
+      <p>Your request is in. A member of our team will reach out within one business day to confirm your visit.</p>
+      <button class="btn ghost" data-modal-close>Close</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+<script>
+(function(){
+  var stage=document.getElementById('filmStage');
+  var lb=document.getElementById('filmLightbox');
+  var vid=document.getElementById('filmVideo');
+  var ph=document.getElementById('filmPh');
+  if(!stage||!lb||!vid) return;
+  vid.addEventListener('loadeddata',function(){ if(ph) ph.style.display='none'; });
+  vid.addEventListener('error',function(){ if(ph) ph.style.display='flex'; });
+  function open(){
+    lb.classList.add('open'); document.body.style.overflow='hidden';
+    try{ vid.load(); var p=vid.play(); if(p&&p.catch) p.catch(function(){}); }catch(e){}
+  }
+  function close(){
+    lb.classList.remove('open'); document.body.style.overflow='';
+    try{ vid.pause(); }catch(e){}
+  }
+  stage.addEventListener('click', open);
+  stage.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(); } });
+  document.querySelectorAll('[data-film-close]').forEach(function(b){ b.addEventListener('click', close); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && lb.classList.contains('open')) close(); });
+})();
+</script>
+
+<!-- Tweaks panel (React-powered; drives the vanilla page) -->
+<div id="tweaks-root"></div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="assets/tweaks-panel.jsx"></script>
+<script type="text/babel" src="assets/tweaks-app.jsx"></script>
+</body>
+</html>
