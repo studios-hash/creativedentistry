@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generated Photos — Creative Dentistry</title>
+<style>
+  :root { --navy:#1c2a44; --cream:#f3eee5; --ink:#2a2a28; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--cream); color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    padding: 48px 48px 8px;
+  }
+  header h1 { margin: 0 0 6px; font-size: 30px; letter-spacing: .2px; color: var(--navy); }
+  header p { margin: 0; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12.5px; color: #6b6258; letter-spacing: .3px; }
+  .grid {
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    gap: 28px; padding: 32px 48px 56px; max-width: 1280px;
+  }
+  figure { margin: 0; }
+  .frame {
+    background: #fff; border: 1px solid #e0d8ca; border-radius: 4px;
+    overflow: hidden; box-shadow: 0 12px 30px -18px rgba(28,42,68,.4);
+  }
+  .frame img { display: block; width: 100%; height: auto; }
+  figcaption {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-top: 12px; gap: 16px;
+  }
+  figcaption .name { font-size: 17px; color: var(--navy); }
+  figcaption .meta { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 11.5px; color: #8a8175; white-space: nowrap; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Generated photography</h1>
+    <p>HIGGSFIELD · NANO BANANA PRO · MATCHED TO DR. BELLAFIORE REFERENCE</p>
+  </header>
+  <div class="grid">
+    <figure>
+      <div class="frame"><img src="assets/photo-hero.png" alt="Hero — dentist and patient"></div>
+      <figcaption><span class="name">Hero — dentist &amp; patient</span><span class="meta">4:5</span></figcaption>
+    </figure>
+    <figure>
+      <div class="frame"><img src="assets/photo-reception.png" alt="Reception lounge"></div>
+      <figcaption><span class="name">Reception lounge</span><span class="meta">3:4</span></figcaption>
+    </figure>
+    <figure>
+      <div class="frame"><img src="assets/dr-black.png" alt="Dr. Alexander Black"></div>
+      <figcaption><span class="name">Dr. Alexander Black</span><span class="meta">4:5</span></figcaption>
+    </figure>
+    <figure>
+      <div class="frame"><img src="assets/dr-baer.png" alt="Dr. Becca Baer"></div>
+      <figcaption><span class="name">Dr. Becca Baer</span><span class="meta">4:5</span></figcaption>
+    </figure>
+    <figure style="grid-column: 1 / -1;">
+      <div class="frame"><img src="assets/photo-exterior.png" alt="Office exterior"></div>
+      <figcaption><span class="name">Office exterior — Brooklyn Heights</span><span class="meta">16:9</span></figcaption>
+    </figure>
+    <figure>
+      <div class="frame"><img src="assets/photo-treatment-room.png" alt="Treatment room detail"></div>
+      <figcaption><span class="name">Treatment room detail</span><span class="meta">4:3</span></figcaption>
+    </figure>
+    <figure>
+      <div class="frame"><img src="assets/photo-comfort.png" alt="Comfort detail"></div>
+      <figcaption><span class="name">Comfort detail</span><span class="meta">1:1</span></figcaption>
+    </figure>
+  </div>
+</body>
+</html>

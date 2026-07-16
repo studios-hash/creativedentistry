@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creative Dentistry at Brooklyn Heights — Book a Visit</title>
+<meta name="description" content="A new website for Creative Dentistry at Brooklyn Heights is on its way. Request an appointment below and our team will reach out to confirm — or call to book today.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logomark-navy.svg">
+<style>
+  :root{
+    --navy:#1B2D5B;
+    --navy-900:#0f1c39;
+    --gold:#F5B800;
+    --gold-ink:#7a5c00;
+    --cream:#F5F2EE;
+    --cream-2:#efeae3;
+    --ink:#1b2438;
+    --muted:#5b6577;
+    --line:rgba(27,45,91,.14);
+    --line-2:rgba(27,45,91,.10);
+    --white:#fff;
+    --serif:'Lora', Georgia, serif;
+    --sans:'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    --ease:cubic-bezier(.22,.61,.36,1);
+  }
+  *{ box-sizing:border-box; }
+  html,body{ min-height:100%; }
+  body{
+    margin:0; color:var(--ink); background:var(--cream);
+    font-family:var(--sans); -webkit-font-smoothing:antialiased;
+  }
+  a{ color:inherit; }
+
+  .stage{
+    min-height:100vh;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+  @media (max-width:1000px){
+    .stage{ grid-template-columns:1fr; }
+  }
+
+  /* ---------- Left: brand / welcome ---------- */
+  .panel{
+    position:relative;
+    display:flex; flex-direction:column;
+    padding:clamp(32px,4.5vw,64px);
+    background:var(--cream);
+    overflow:hidden;
+  }
+  .panel .mark{
+    position:absolute; right:-90px; bottom:-70px; width:360px; opacity:.05;
+    pointer-events:none; user-select:none;
+  }
+  .brand{ display:flex; }
+  .brand img{ height:50px; width:auto; }
+
+  .content{
+    margin:auto 0;
+    max-width:520px;
+    position:relative; z-index:2;
+    padding:44px 0;
+  }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:11px;
+    font-size:12px; font-weight:600; letter-spacing:.2em; text-transform:uppercase;
+    color:var(--gold-ink); margin:0 0 24px;
+  }
+  .eyebrow::before{ content:""; width:30px; height:2px; background:var(--gold); }
+
+  h1{
+    font-family:var(--serif); font-weight:500;
+    font-size:clamp(36px,4.6vw,56px); line-height:1.05; letter-spacing:-.015em;
+    color:var(--navy); margin:0 0 22px;
+  }
+  h1 .em{ font-style:italic; color:var(--gold-ink); }
+
+  .lede{
+    font-size:clamp(16px,1.5vw,18px); line-height:1.65; color:var(--muted);
+    margin:0 0 0; max-width:46ch;
+  }
+
+  /* ---------- Open / contact strip ---------- */
+  .open{
+    margin-top:36px; padding-top:30px; border-top:1px solid var(--line);
+    display:flex; flex-wrap:wrap; align-items:center; gap:16px 26px;
+  }
+  .open .lab{
+    font-size:12px; font-weight:600; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--navy); display:flex; align-items:center; gap:9px;
+  }
+  .open .lab .dot{ width:8px; height:8px; border-radius:50%; background:#2e9c6a; box-shadow:0 0 0 4px rgba(46,156,106,.16); }
+  .call{
+    display:inline-flex; align-items:center; gap:10px;
+    font-family:var(--serif); font-size:22px; font-weight:500; color:var(--navy);
+    text-decoration:none;
+  }
+  .call svg{ width:18px; height:18px; fill:none; stroke:var(--gold-ink); stroke-width:2; }
+  .call:hover{ color:var(--gold-ink); }
+  .meta{ font-size:13.5px; color:var(--muted); line-height:1.6; margin:18px 0 0; }
+  .meta b{ color:var(--ink); font-weight:600; }
+
+  /* ---------- Right: form over photo ---------- */
+  .formside{
+    position:relative;
+    display:flex; align-items:center; justify-content:center;
+    padding:clamp(28px,4vw,56px);
+    background:var(--navy-900);
+    overflow:hidden;
+  }
+  .formside .bg{
+    position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
+    opacity:.32;
+  }
+  .formside::after{
+    content:""; position:absolute; inset:0;
+    background:linear-gradient(160deg, rgba(15,28,57,.55), rgba(15,28,57,.82));
+  }
+
+  .card{
+    position:relative; z-index:2;
+    width:100%; max-width:460px;
+    background:var(--white);
+    border-radius:18px;
+    padding:clamp(26px,3vw,38px);
+    box-shadow:0 30px 70px rgba(7,14,30,.45);
+  }
+  .card .keyb{
+    font-size:11.5px; font-weight:600; letter-spacing:.2em; text-transform:uppercase;
+    color:var(--gold-ink); margin:0 0 10px;
+  }
+  .card h2{
+    font-family:var(--serif); font-weight:500; font-size:28px; line-height:1.12;
+    letter-spacing:-.01em; color:var(--navy); margin:0 0 10px;
+  }
+  .card .sub{
+    font-size:14px; line-height:1.6; color:var(--muted); margin:0 0 24px;
+  }
+
+  /* form grid */
+  .grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .grp{ display:flex; flex-direction:column; gap:6px; }
+  .grp.full{ grid-column:1 / -1; }
+  .grp label{
+    font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--navy);
+  }
+  .grp .req{ color:var(--gold-ink); }
+  .grp input,
+  .grp select,
+  .grp textarea{
+    font-family:var(--sans); font-size:15px; color:var(--ink);
+    padding:12px 13px; border:1.5px solid var(--line); border-radius:10px;
+    background:var(--white); width:100%;
+    transition:border-color .2s var(--ease), box-shadow .2s var(--ease);
+    -webkit-appearance:none; appearance:none;
+  }
+  .grp textarea{ resize:vertical; min-height:74px; line-height:1.5; }
+  .grp input::placeholder, .grp textarea::placeholder{ color:#9aa3b2; }
+  .grp select{
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%231B2D5B' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat:no-repeat; background-position:right 13px center; padding-right:36px;
+    color:var(--ink); cursor:pointer;
+  }
+  .grp select:invalid{ color:#9aa3b2; }
+  .grp input:focus, .grp select:focus, .grp textarea:focus{
+    outline:none; border-color:var(--navy);
+    box-shadow:0 0 0 4px rgba(27,45,91,.10);
+  }
+  .grp input.bad, .grp select.bad{ border-color:#c8542e; box-shadow:0 0 0 4px rgba(200,84,46,.10); }
+
+  .btn{
+    grid-column:1 / -1; margin-top:4px;
+    display:inline-flex; align-items:center; justify-content:center; gap:9px;
+    font-family:var(--sans); font-size:15.5px; font-weight:600; white-space:nowrap;
+    padding:15px 24px; border:0; border-radius:11px; cursor:pointer;
+    background:var(--gold); color:var(--navy-900);
+    transition:transform .15s var(--ease), box-shadow .2s var(--ease);
+    box-shadow:0 6px 18px rgba(245,184,0,.28);
+  }
+  .btn:hover{ transform:translateY(-1px); box-shadow:0 10px 26px rgba(245,184,0,.36); }
+  .btn:active{ transform:translateY(0); }
+  .btn svg{ width:17px; height:17px; fill:none; stroke:currentColor; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round; }
+
+  .altline{
+    grid-column:1 / -1; text-align:center;
+    font-size:12.5px; color:var(--muted); margin:2px 0 0;
+  }
+  .altline a{ color:var(--navy); font-weight:600; text-decoration:none; }
+  .altline a:hover{ color:var(--gold-ink); }
+
+  /* success */
+  .done{ display:none; text-align:center; padding:8px 4px 6px; }
+  .done.show{ display:block; animation:rise .5s var(--ease) both; }
+  .done .tick{
+    width:54px; height:54px; border-radius:50%; background:var(--navy);
+    display:flex; align-items:center; justify-content:center; margin:0 auto 18px;
+  }
+  .done .tick svg{ width:28px; height:28px; fill:none; stroke:var(--gold); stroke-width:2.6; stroke-linecap:round; stroke-linejoin:round; }
+  .done h2{ font-family:var(--serif); font-weight:500; font-size:25px; color:var(--navy); margin:0 0 9px; }
+  .done p{ font-size:14.5px; color:var(--muted); line-height:1.6; margin:0 auto; max-width:34ch; }
+  .done .again{
+    display:inline-block; margin-top:18px; font-size:13px; font-weight:600;
+    color:var(--navy); text-decoration:none; border-bottom:1.5px solid var(--gold); padding-bottom:2px; cursor:pointer;
+  }
+
+  /* reveal — opacity stays 1; only a subtle shift animates */
+  @media (prefers-reduced-motion: no-preference){
+    .rise{ animation:rise .7s var(--ease) both; }
+    .d1{ animation-delay:.06s; } .d2{ animation-delay:.13s; } .d3{ animation-delay:.2s; } .d4{ animation-delay:.27s; }
+  }
+  @keyframes rise{ from{ transform:translateY(13px); } to{ transform:none; } }
+
+  @media (max-width:1000px){
+    .formside{ min-height:auto; }
+  }
+  @media (max-width:420px){
+    .grid{ grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#F5F2EE">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#F5F2EE"/>
+    <rect x="430" y="300" width="340" height="220" rx="20" fill="#1B2D5B"/>
+    <path d="M430 322 L600 440 L770 322" fill="none" stroke="#F5B800" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="500" y="560" width="200" height="10" rx="5" fill="#1B2D5B" opacity="0.35"/>
+  </svg>
+</template>
+<div class="stage">
+
+  <!-- ============ LEFT: WELCOME ============ -->
+  <section class="panel">
+    <img class="mark" src="assets/logomark-navy.svg" alt="" aria-hidden="true">
+
+    <a class="brand rise" href="#" aria-label="Creative Dentistry at Brooklyn Heights">
+      <img src="assets/logo-full-navy.svg" alt="Creative Dentistry at Brooklyn Heights">
+    </a>
+
+    <div class="content">
+      <span class="eyebrow rise d1">Brooklyn Heights · Est. 1961</span>
+      <h1 class="rise d1">A new site is on<br>the way — but our<br>chairs are <span class="em">open now.</span></h1>
+      <p class="lede rise d2">We're crafting a new website for Creative Dentistry at Brooklyn Heights. In the meantime, we're seeing patients as always. Request a visit and our team will reach out to confirm a time that works for you.</p>
+
+      <div class="open rise d3">
+        <span class="lab"><span class="dot"></span> Open &amp; accepting patients</span>
+        <a class="call" href="tel:+17188759424">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          (718) 875-9424
+        </a>
+      </div>
+      <p class="meta rise d4"><b>185 Montague Street, 3rd Floor</b> · Brooklyn, NY 11201<br>Mon–Thu 8:00–5:00 · Fri 8:00–4:00 · Spoken here: English · Spanish · Polish</p>
+    </div>
+  </section>
+
+  <!-- ============ RIGHT: APPOINTMENT FORM ============ -->
+  <aside class="formside">
+    <img class="bg" src="assets/photo-exterior.png" alt="" aria-hidden="true">
+
+    <div class="card rise d2">
+      <form id="appt" novalidate>
+        <p class="keyb">Book Today</p>
+        <h2>Schedule your visit</h2>
+        <p class="sub">Fill out the form and our patient coordinator will reach out within one business day to confirm a time that fits your schedule.</p>
+
+        <div class="grid">
+          <div class="grp full">
+            <label for="name">Full name <span class="req">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name">
+          </div>
+          <div class="grp">
+            <label for="phone">Phone <span class="req">*</span></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(718) 000-0000">
+          </div>
+          <div class="grp">
+            <label for="email">Email <span class="req">*</span></label>
+            <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@email.com">
+          </div>
+          <div class="grp full">
+            <label for="reason">What can we help with?</label>
+            <select id="reason" name="reason">
+              <option value="" selected>Select a reason…</option>
+              <option>New patient exam &amp; cleaning</option>
+              <option>Cosmetic / smile design</option>
+              <option>Restorative (filling, crown, bridge)</option>
+              <option>Dental implants</option>
+              <option>Clear aligners</option>
+              <option>TMJ / jaw pain</option>
+              <option>Dental emergency</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="grp">
+            <label for="day">Preferred day</label>
+            <input id="day" name="day" type="date">
+          </div>
+          <div class="grp">
+            <label for="time">Preferred time</label>
+            <select id="time" name="time">
+              <option value="" selected>No preference</option>
+              <option>Morning (8–11)</option>
+              <option>Midday (11–2)</option>
+              <option>Afternoon (2–5)</option>
+            </select>
+          </div>
+          <div class="grp full">
+            <label for="notes">Anything we should know? <span style="color:var(--muted);font-weight:500;text-transform:none;letter-spacing:0">(optional)</span></label>
+            <textarea id="notes" name="notes" placeholder="First time in a while, a little nervous, new patient, etc."></textarea>
+          </div>
+
+          <button class="btn" type="submit">Request appointment
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <p class="altline">Prefer to talk? Call <a href="tel:+17188759424">(718) 875-9424</a></p>
+        </div>
+      </form>
+
+      <div class="done" id="done" aria-live="polite">
+        <div class="tick"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+        <h2 id="doneTitle">Thank you!</h2>
+        <p>Your request is in. A member of our team will reach out within one business day to confirm your visit.</p>
+        <a class="again" id="again" role="button" tabindex="0">Submit another request</a>
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<script>
+/* ---------------------------------------------------------------------------
+   TEMPORARY APPOINTMENT CAPTURE
+   Requests are stored locally in the browser (localStorage) so this page works
+   with no backend. To collect for real, POST the `payload` object below to your
+   provider (Formspree / your scheduling tool / an email endpoint), e.g.:
+
+     await fetch('https://YOUR-ENDPOINT', {
+       method:'POST',
+       headers:{'Content-Type':'application/json'},
+       body: JSON.stringify(payload)
+     });
+--------------------------------------------------------------------------- */
+(function(){
+  var form = document.getElementById('appt');
+  var done = document.getElementById('done');
+  var doneTitle = document.getElementById('doneTitle');
+  var again = document.getElementById('again');
+  var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  var name  = document.getElementById('name');
+  var phone = document.getElementById('phone');
+  var email = document.getElementById('email');
+
+  function mark(el, bad){ el.classList.toggle('bad', !!bad); }
+
+  [name, phone, email].forEach(function(el){
+    el.addEventListener('input', function(){ mark(el, false); });
+  });
+
+  function saveLead(payload){
+    try{
+      var list = JSON.parse(localStorage.getItem('cd_appointments') || '[]');
+      list.push(payload);
+      localStorage.setItem('cd_appointments', JSON.stringify(list));
+    }catch(e){}
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var okName  = name.value.trim().length > 1;
+    var okPhone = phone.value.replace(/\D/g,'').length >= 10;
+    var okEmail = emailRe.test(email.value.trim());
+    mark(name, !okName); mark(phone, !okPhone); mark(email, !okEmail);
+    if(!(okName && okPhone && okEmail)){
+      (!okName ? name : !okPhone ? phone : email).focus();
+      return;
+    }
+
+    var payload = {
+      name: name.value.trim(),
+      phone: phone.value.trim(),
+      email: email.value.trim(),
+      reason: document.getElementById('reason').value || '—',
+      day: document.getElementById('day').value || '—',
+      time: document.getElementById('time').value || 'No preference',
+      notes: document.getElementById('notes').value.trim(),
+      submittedAt: new Date().toISOString()
+    };
+    saveLead(payload);
+
+    doneTitle.textContent = 'Thank you, ' + payload.name.split(' ')[0] + '!';
+    form.style.display = 'none';
+    done.classList.add('show');
+  });
+
+  function reset(){
+    form.reset();
+    [name, phone, email].forEach(function(el){ mark(el, false); });
+    done.classList.remove('show');
+    form.style.display = '';
+    name.focus();
+  }
+  again.addEventListener('click', reset);
+  again.addEventListener('keydown', function(e){ if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); reset(); } });
+})();
+</script>
+</body>
+</html>
